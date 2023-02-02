@@ -7,7 +7,7 @@ import './views/main/';
  * @param {object} node IntersectionObserverEntry array
  */
 export const initRouter = (node) => {
-  const router = new Router(node);
+  const router = new Router(node, { baseUrl: '/smartup' });
 
   router.setRoutes([
     {

@@ -98,7 +98,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
           <smartup-career-top-card></smartup-career-top-card>
           <bottomcards-container .cardsData="${this.bottomCardsData}"></bottomcards-container>
         </section> 
-    `}});const r=[{logoUrl:"../../../../assets/images/career/ninja-rojo.png",title:"Smarter Promise",text:"Aquellas personas que se encuentran \n           formándose en SmartUp Training para \n           alcanzar un nivel Competent en los ejes \n           de Tech Skills, Soft Skills y Cultura Digital."},{logoUrl:"../../../../assets/images/career/ninja-amarillo.png",title:"Smarter",text:"Toda persona perteneciente a \n           la Comunidad Digital con un nivel \n           Competente o superior en los ejes de\n           Tech Skills, Soft Skills y Cultura Digital."},{logoUrl:"../../../../assets/images/career/ninja-verde.png",title:"Smarter Lead",text:"Son referentes técnicos dentro de \n           sus proyectos y el resto de compañeros\n           les reconocen como tal. Ejercen de\n           mentores de los Smarters."},{logoUrl:"../../../../assets/images/career/ninja-azul.png",title:"Smarter Xpert",text:"Son profesionales con un nivel Expert\n           o superior en los ejes de Tech Skills, Soft\n           Skills y Cultura Digital. Mentorizan a los\n           Smarter Leads y son personas clave a\n           nivel de compañía."}];customElements.define("smarter-path",class extends t{static get styles(){return[e,i`
+    `}});const r=[{logoUrl:"./assets/images/career/ninja-rojo.png",title:"Smarter Promise",text:"Aquellas personas que se encuentran \n           formándose en SmartUp Training para \n           alcanzar un nivel Competent en los ejes \n           de Tech Skills, Soft Skills y Cultura Digital."},{logoUrl:"./assets/images/career/ninja-amarillo.png",title:"Smarter",text:"Toda persona perteneciente a \n           la Comunidad Digital con un nivel \n           Competente o superior en los ejes de\n           Tech Skills, Soft Skills y Cultura Digital."},{logoUrl:"./assets/images/career/ninja-verde.png",title:"Smarter Lead",text:"Son referentes técnicos dentro de \n           sus proyectos y el resto de compañeros\n           les reconocen como tal. Ejercen de\n           mentores de los Smarters."},{logoUrl:"./assets/images/career/ninja-azul.png",title:"Smarter Xpert",text:"Son profesionales con un nivel Expert\n           o superior en los ejes de Tech Skills, Soft\n           Skills y Cultura Digital. Mentorizan a los\n           Smarter Leads y son personas clave a\n           nivel de compañía."}];customElements.define("smarter-path",class extends t{static get styles(){return[e,i`
       section {
         overflow: hidden;
         height: 700px;
@@ -112,7 +112,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
         width: 100%;
         height: 100%;
         opacity: 0;
-        background-image: url('../../../../assets/images/career/road.jpg');
+        background-image: url('./assets/images/career/road.jpg');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -458,7 +458,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
         section {
           height: 630px;
           padding: 20px;
-          background-image: url('../../../../assets/images/career/road-mobile.jpg');
+          background-image: url('./assets/images/career/road-mobile.jpg');
           background-size: cover;
           background-position: center;
         }
@@ -650,7 +650,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
           width: 100%;
           height: 100%;
           opacity: 0.9;
-          background-image: url('../../../../assets/images/career/road.jpg');
+          background-image: url('./assets/images/career/road.jpg');
           background-size: cover;
           background-position-x: center;
           background-position-y: 31%;
@@ -1170,7 +1170,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
 
         ${"mobile"===this.device?s`<smarter-path-mobile></smarter-path-mobile>`:s`<smarter-path></smarter-path>`}
       </section>
-    `}connectedCallback(){super.connectedCallback(),window.matchMedia("(min-width: 768px)").addListener(()=>{this._detectDevice()},!0)}disconnectedCallback(){super.disconnectedCallback(),window.matchMedia("(min-width: 768px)").removeListener(()=>{this._detectDevice()},!0)}_detectDevice(){this.device=window.innerWidth<768?"mobile":"desktop"}});const l=[{text:"SMARTUP_CAREER_COMPONENT_CARDTWO_TEXT",image:"url(/assets/images/career/smartup_career_component_card2image.jpg)"},{text:"SMARTUP_CAREER_COMPONENT_CARDTHREE_TEXT",image:"url(/assets/images/career/smartup_career_component_card3image.jpg)"},{text:"SMARTUP_CAREER_COMPONENT_CARDFOUR_TEXT",image:"url(/assets/images/career/smartup_career_component_card4image.jpg)"}];window.customElements.define("smartup-career-view",class extends t{static get styles(){return[e,i`
+    `}connectedCallback(){super.connectedCallback(),window.matchMedia("(min-width: 768px)").addListener(()=>{this._detectDevice()},!0)}disconnectedCallback(){super.disconnectedCallback(),window.matchMedia("(min-width: 768px)").removeListener(()=>{this._detectDevice()},!0)}_detectDevice(){this.device=window.innerWidth<768?"mobile":"desktop"}});const l=[{text:"SMARTUP_CAREER_COMPONENT_CARDTWO_TEXT",image:"url(./assets/images/career/smartup_career_component_card2image.jpg)"},{text:"SMARTUP_CAREER_COMPONENT_CARDTHREE_TEXT",image:"url(./assets/images/career/smartup_career_component_card3image.jpg)"},{text:"SMARTUP_CAREER_COMPONENT_CARDFOUR_TEXT",image:"url(./assets/images/career/smartup_career_component_card4image.jpg)"}];window.customElements.define("smartup-career-view",class extends t{static get styles(){return[e,i`
         :host {
           height: 100%;
         }
@@ -1204,11 +1204,11 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
         }
       `]}render(){return s`
       <hero-element .literals="${["SMARTUP_CAREER","SMARTUP_CAREER_SUBTITLE"]}" .scrollTo="${"smartup-career"}">
-        <video slot="video" autoplay loop muted playsinline poster="/assets/videos/career-video-poster.png">
-          <source src="/assets/videos/career-video.mp4" type="video/mp4">
+        <video slot="video" autoplay loop muted playsinline poster="./assets/videos/career-video-poster.png">
+          <source src="./assets/videos/career-video.mp4" type="video/mp4">
         </video>
       </hero-element>
       <smartup-career .bottomCardsData="${l}"></smartup-career>
       <smarter-path-container></smarter-path-container>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;o({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-bb3c7a7b.js.map
+//# sourceMappingURL=index-dc8da11d.js.map

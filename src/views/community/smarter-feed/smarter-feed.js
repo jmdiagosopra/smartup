@@ -201,7 +201,7 @@ class SmarterFeed extends LitElement {
     
     this.animationClass = true;
     this.tweets = [];
-    this.ApiUrl = "/tweets.json";
+    this.ApiUrl = "./tweets.json";
     let fromDate = this._getFromDate();
     let toDate = this._getToDate();
     

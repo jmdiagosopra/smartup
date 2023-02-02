@@ -19,7 +19,7 @@ class SmarterPathMobile extends LitElement {
         section {
           height: 630px;
           padding: 20px;
-          background-image: url('../../../../assets/images/career/road-mobile.jpg');
+          background-image: url('./assets/images/career/road-mobile.jpg');
           background-size: cover;
           background-position: center;
         }

@@ -17,7 +17,7 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
         }
 
         .background-image-parallax {
-          background-image: url('/assets/images/community/smartup-community/wolf.jpg');
+          background-image: url('./assets/images/community/smartup-community/wolf.jpg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -305,7 +305,7 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
         <div class="ramp-cover ${"big"===this.screenHeight?"ramp-cover-big-display":"ramp-cover-small-display"} ${this.gradientRampAppearing?"ramp-visible":""}"></div>
         ${this._toPrintCircles()}
       </section>
-    `}connectedCallback(){super.connectedCallback(),window.IntersectionObserver?this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:this.THRESHOLDS,callback:this._handleIntersection.bind(this)}})):this.gradientRampAppearing=!0}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver?this._unobserveIntersection(this.THRESHOLDS):this.gradientRampAppearing=!1}_toPrintCircles(){return this.circlesData.map(t=>s`<smartup-community-bottom-circle .image="${t.image}" .circleText="${t.text}"></smartup-community-bottom-circle>`)}_unobserveIntersection(t){this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:t}}))}_handleIntersection([{isIntersecting:t}]){this.gradientRampAppearing=t,t&&this._unobserveIntersection(this.THRESHOLDS)}});const m=[{image:"/assets/images/community/smartup-community/communityphoto1.jpg",text:"SMARTUP_COMMUNITY_FIRSTCIRCLE_TEXT"},{image:"/assets/images/community/smartup-community/communityphoto2.jpg",text:"SMARTUP_COMMUNITY_SECONDCIRCLE_TEXT"},{image:"/assets/images/community/smartup-community/communityphoto3.jpg",text:"SMARTUP_COMMUNITY_THIRDCIRCLE_TEXT"}];let u;customElements.define("smartup-community",class extends t{static get styles(){return[e]}static get properties(){return{smartupCommunityCircles:{type:Array}}}render(){return s`
+    `}connectedCallback(){super.connectedCallback(),window.IntersectionObserver?this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:this.THRESHOLDS,callback:this._handleIntersection.bind(this)}})):this.gradientRampAppearing=!0}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver?this._unobserveIntersection(this.THRESHOLDS):this.gradientRampAppearing=!1}_toPrintCircles(){return this.circlesData.map(t=>s`<smartup-community-bottom-circle .image="${t.image}" .circleText="${t.text}"></smartup-community-bottom-circle>`)}_unobserveIntersection(t){this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:t}}))}_handleIntersection([{isIntersecting:t}]){this.gradientRampAppearing=t,t&&this._unobserveIntersection(this.THRESHOLDS)}});const m=[{image:"./assets/images/community/smartup-community/communityphoto1.jpg",text:"SMARTUP_COMMUNITY_FIRSTCIRCLE_TEXT"},{image:"./assets/images/community/smartup-community/communityphoto2.jpg",text:"SMARTUP_COMMUNITY_SECONDCIRCLE_TEXT"},{image:"./assets/images/community/smartup-community/communityphoto3.jpg",text:"SMARTUP_COMMUNITY_THIRDCIRCLE_TEXT"}];let u;customElements.define("smartup-community",class extends t{static get styles(){return[e]}static get properties(){return{smartupCommunityCircles:{type:Array}}}render(){return s`
       <section>
         <h1 class="title section-header" aria-label="${n("SMARTUP_COMMUNITY_TITLE",!0)}" tabindex="0">
           <lit-i18n>SMARTUP_COMMUNITY_TITLE</lit-i18n>
@@ -417,7 +417,7 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
         position: absolute;
         width: 100%;
         height: 300%;
-        background-image: url('/assets/images/community/smarter-leads/smarter-leads-image.jpg');
+        background-image: url('./assets/images/community/smarter-leads/smarter-leads-image.jpg');
         background-repeat: no-repeat;
         background-size: cover;    
         background-position: center;
@@ -797,7 +797,7 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
           left: 10%;
         }
       }
-    `]}static get properties(){return{ApiUrl:{type:String},coordinate:{type:Number},index:{type:Number},tweets:{type:Array},fetchData:{type:Object},timer:{type:Number},auto:{type:Boolean},interval:{type:Number},animationClass:{type:Boolean},minTouchLength:{type:Number},minTouchAngle:{type:Number}}}constructor(){super(),this.index=0,this.coordinate=0,this.animationSpeed=.6,this.auto=!0,this.timer=6e3,this.interval=null,this.minTouchLength=70,this.minTouchAngle=30,this.animationClass=!0,this.tweets=[],this.ApiUrl="/tweets.json";let t=this._getFromDate(),e=this._getToDate(),i={query:g,maxResults:b,fromDate:t,toDate:e};this.fetchParams={method:"POST",body:JSON.stringify(i),headers:{"content-type":"application/json"}},this._fetchTweets(this.ApiUrl,this.fetchParams),this._focusEventsActive=[],this.EVENTS={mouseenter:"mouse",mouseleave:"mouse",focusin:"focus",focusout:"focus"}}render(){return s`
+    `]}static get properties(){return{ApiUrl:{type:String},coordinate:{type:Number},index:{type:Number},tweets:{type:Array},fetchData:{type:Object},timer:{type:Number},auto:{type:Boolean},interval:{type:Number},animationClass:{type:Boolean},minTouchLength:{type:Number},minTouchAngle:{type:Number}}}constructor(){super(),this.index=0,this.coordinate=0,this.animationSpeed=.6,this.auto=!0,this.timer=6e3,this.interval=null,this.minTouchLength=70,this.minTouchAngle=30,this.animationClass=!0,this.tweets=[],this.ApiUrl="./tweets.json";let t=this._getFromDate(),e=this._getToDate(),i={query:g,maxResults:b,fromDate:t,toDate:e};this.fetchParams={method:"POST",body:JSON.stringify(i),headers:{"content-type":"application/json"}},this._fetchTweets(this.ApiUrl,this.fetchParams),this._focusEventsActive=[],this.EVENTS={mouseenter:"mouse",mouseleave:"mouse",focusin:"focus",focusout:"focus"}}render(){return s`
       <section aria-label="${n("SMARTER_FEED_TITLE",!0)}" tabindex="0">
         <h1 class="title section-header" aria-label="${n("SMARTER_FEED_TITLE",!0)}" tabindex="0">
           <lit-i18n>SMARTER_FEED_TITLE</lit-i18n>
@@ -846,12 +846,12 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
 
       `]}render(){return s`
       <hero-element .literals="${["SMARTUP_COMMUNITY","SMARTUP_COMMUNITY_SUBTITLE"]}" .scrollTo="${"smartup-community"}">
-        <video slot="video" autoplay loop muted playsinline poster="/assets/videos/community-video-poster.jpg">
-          <source src="/assets/videos/community-video.mp4" type="video/mp4">
+        <video slot="video" autoplay loop muted playsinline poster="./assets/videos/community-video-poster.jpg">
+          <source src="./assets/videos/community-video.mp4" type="video/mp4">
         </video>
       </hero-element>
       <smartup-community></smartup-community>
       <smarter-leads></smarter-leads>
       <smarter-feed></smarter-feed>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;c({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-67f3a913.js.map
+//# sourceMappingURL=index-e5266bbb.js.map

@@ -117,7 +117,7 @@ class SmarterLeads extends LitElement {
         position: absolute;
         width: 100%;
         height: 300%;
-        background-image: url('/assets/images/community/smarter-leads/smarter-leads-image.jpg');
+        background-image: url('./assets/images/community/smarter-leads/smarter-leads-image.jpg');
         background-repeat: no-repeat;
         background-size: cover;    
         background-position: center;

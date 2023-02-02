@@ -28,7 +28,7 @@ class SmartupCommunityHeader extends LitElement {
         }
 
         .background-image-parallax {
-          background-image: url('/assets/images/community/smartup-community/wolf.jpg');
+          background-image: url('./assets/images/community/smartup-community/wolf.jpg');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;

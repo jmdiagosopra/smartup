@@ -57,8 +57,8 @@ class SmartupCareerView extends LitElement {
   render() {
     return html`
       <hero-element .literals="${['SMARTUP_CAREER', 'SMARTUP_CAREER_SUBTITLE']}" .scrollTo="${'smartup-career'}">
-        <video slot="video" autoplay loop muted playsinline poster="/assets/videos/career-video-poster.png">
-          <source src="/assets/videos/career-video.mp4" type="video/mp4">
+        <video slot="video" autoplay loop muted playsinline poster="./assets/videos/career-video-poster.png">
+          <source src="./assets/videos/career-video.mp4" type="video/mp4">
         </video>
       </hero-element>
       <smartup-career .bottomCardsData="${smartupCareerBottomCardsData}"></smartup-career>

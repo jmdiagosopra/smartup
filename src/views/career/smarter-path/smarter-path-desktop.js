@@ -30,7 +30,7 @@ class SmarterPathDesktop extends LitElement {
           width: 100%;
           height: 100%;
           opacity: 0.9;
-          background-image: url('../../../../assets/images/career/road.jpg');
+          background-image: url('./assets/images/career/road.jpg');
           background-size: cover;
           background-position-x: center;
           background-position-y: 31%;

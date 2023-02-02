@@ -17,7 +17,7 @@ class TechnicalCoaches extends LitElement {
         .container {
           position: relative;
           width: 100%;
-          background: url('/assets/images/training/coaches.jpg');
+          background: url('./assets/images/training/coaches.jpg');
           background-size: cover;
           background-position: center;
         }

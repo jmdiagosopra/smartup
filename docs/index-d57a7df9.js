@@ -146,7 +146,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
         .container {
           position: relative;
           width: 100%;
-          background: url('/assets/images/training/coaches.jpg');
+          background: url('./assets/images/training/coaches.jpg');
           background-size: cover;
           background-position: center;
         }
@@ -984,4 +984,4 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
       <soft-skills></soft-skills>
       <technical-coaches></technical-coaches>
    `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;a({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-09a64f2a.js.map
+//# sourceMappingURL=index-d57a7df9.js.map

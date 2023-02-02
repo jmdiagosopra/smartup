@@ -13,7 +13,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
           align-items: center;
           flex-direction: column;
           font-size: var(--app-title-font-size-mobile, 18px);
-          background-image: url('/assets/images/career/smartup_career_component_card1image-mobile.jpg');
+          background-image: url('./assets/images/career/smartup_career_component_card1image-mobile.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center 20%;
@@ -50,7 +50,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
 
         @media (min-width: 768px) {
           section {
-            background-image: url('/assets/images/career/smartup_career_component_card1image.jpg');
+            background-image: url('./assets/images/career/smartup_career_component_card1image.jpg');
           }
           .default-text {
             width: 70%;
@@ -1211,4 +1211,4 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as 
       <smartup-career .bottomCardsData="${l}"></smartup-career>
       <smarter-path-container></smarter-path-container>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;o({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-dc8da11d.js.map
+//# sourceMappingURL=index-cb0f04df.js.map

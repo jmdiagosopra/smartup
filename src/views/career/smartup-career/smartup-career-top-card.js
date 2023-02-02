@@ -22,7 +22,7 @@ class SmartUpCareerTopCard extends LitElement {
           align-items: center;
           flex-direction: column;
           font-size: var(--app-title-font-size-mobile, 18px);
-          background-image: url('/assets/images/career/smartup_career_component_card1image-mobile.jpg');
+          background-image: url('./assets/images/career/smartup_career_component_card1image-mobile.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center 20%;
@@ -59,7 +59,7 @@ class SmartUpCareerTopCard extends LitElement {
 
         @media (min-width: 768px) {
           section {
-            background-image: url('/assets/images/career/smartup_career_component_card1image.jpg');
+            background-image: url('./assets/images/career/smartup_career_component_card1image.jpg');
           }
           .default-text {
             width: 70%;

@@ -371,9 +371,9 @@ class AppShell extends connect(store)(LitElement) {
         <div class="navigation-buttons">
           <nav>
             <ul class="toolbar-list">
-              <li><a ?selected="${this._page === 'training'}" href="/training"><lit-i18n>TRAINING</lit-i18n></a></li>
-              <li><a ?selected="${this._page === 'community'}" href="/community"><lit-i18n>COMMUNITY</lit-i18n></a></li>
-              <li><a ?selected="${this._page === 'career'}" href="/career"><lit-i18n>CAREER</lit-i18n></a></li>
+              <li><a ?selected="${this._page === 'training'}" href="./training"><lit-i18n>TRAINING</lit-i18n></a></li>
+              <li><a ?selected="${this._page === 'community'}" href="./community"><lit-i18n>COMMUNITY</lit-i18n></a></li>
+              <li><a ?selected="${this._page === 'career'}" href="./career"><lit-i18n>CAREER</lit-i18n></a></li>
             </ul>
           </nav>
           <a class="primary-button big" id="want-know-btn" href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience"><lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n></a>
@@ -383,9 +383,9 @@ class AppShell extends connect(store)(LitElement) {
         </div>
         <div ?opened="${this._drawerOpened}" class="drawer-list">
           <a ?selected="${this._page === 'home'}" href="/home"><lit-i18n>HOME</lit-i18n></a>
-          <a ?selected="${this._page === 'training'}" href="/training"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
-          <a ?selected="${this._page === 'community'}" href="/community"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
-          <a ?selected="${this._page === 'career'}" href="/career"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
+          <a ?selected="${this._page === 'training'}" href="./training"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
+          <a ?selected="${this._page === 'community'}" href="./community"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
+          <a ?selected="${this._page === 'career'}" href="./career"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
         </div>
       </header>
       

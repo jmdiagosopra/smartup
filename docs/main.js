@@ -364,9 +364,9 @@ import{L as e,c as t,h as n,S as r,g as o}from"./chunk-3dad17c8.js";import{h as 
         <div class="navigation-buttons">
           <nav>
             <ul class="toolbar-list">
-              <li><a ?selected="${"training"===this._page}" href="/training"><lit-i18n>TRAINING</lit-i18n></a></li>
-              <li><a ?selected="${"community"===this._page}" href="/community"><lit-i18n>COMMUNITY</lit-i18n></a></li>
-              <li><a ?selected="${"career"===this._page}" href="/career"><lit-i18n>CAREER</lit-i18n></a></li>
+              <li><a ?selected="${"training"===this._page}" href="./training"><lit-i18n>TRAINING</lit-i18n></a></li>
+              <li><a ?selected="${"community"===this._page}" href="./community"><lit-i18n>COMMUNITY</lit-i18n></a></li>
+              <li><a ?selected="${"career"===this._page}" href="./career"><lit-i18n>CAREER</lit-i18n></a></li>
             </ul>
           </nav>
           <a class="primary-button big" id="want-know-btn" href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience"><lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n></a>
@@ -376,9 +376,9 @@ import{L as e,c as t,h as n,S as r,g as o}from"./chunk-3dad17c8.js";import{h as 
         </div>
         <div ?opened="${this._drawerOpened}" class="drawer-list">
           <a ?selected="${"home"===this._page}" href="/home"><lit-i18n>HOME</lit-i18n></a>
-          <a ?selected="${"training"===this._page}" href="/training"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
-          <a ?selected="${"community"===this._page}" href="/community"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
-          <a ?selected="${"career"===this._page}" href="/career"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
+          <a ?selected="${"training"===this._page}" href="./training"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
+          <a ?selected="${"community"===this._page}" href="./community"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
+          <a ?selected="${"career"===this._page}" href="./career"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
         </div>
       </header>
       

@@ -38,7 +38,7 @@ class WantToLiveTheExperience extends LitElement {
 
         @media screen and (min-width: 768px) {
           section {
-            background-image: url('/assets/images/white_ninja.svg');
+            background-image: url('./assets/images/white_ninja.svg');
             background-repeat: no-repeat;
             background-position: right -140px center;
             font-size: 20px;

@@ -33,7 +33,7 @@ class OurCracks extends LitElement {
           min-width: 100%;
           position: relative;
           box-sizing: border-box;
-          background-image: url("/assets/images/main/our-cracks/background-mobile.jpg");
+          background-image: url("./assets/images/main/our-cracks/background-mobile.jpg");
           background-size: cover;
           background-position: center;
         }

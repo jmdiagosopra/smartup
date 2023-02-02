@@ -46,8 +46,8 @@ class MainView extends LitElement {
   render() {
     return html`
       <hero-element .literals="${['SMARTUP_XPERIENCE', 'SMARTUP_XPERIENCE_SUBTITLE']}" .scrollTo="${'the-experience'}">
-        <video slot="video" autoplay loop muted playsinline poster="/assets/videos/main-video-poster.jpg">
-          <source src="/assets/videos/main-video.mp4" type="video/mp4">
+        <video slot="video" autoplay loop muted playsinline poster="./assets/videos/main-video-poster.jpg">
+          <source src="./assets/videos/main-video.mp4" type="video/mp4">
         </video>
       </hero-element>
       <the-experience></the-experience>

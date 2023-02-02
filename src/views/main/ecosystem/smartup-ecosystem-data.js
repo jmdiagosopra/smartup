@@ -4,14 +4,14 @@ export const cardsData = [
   {
     image: {
       srcset: [
-        { src: '/assets/images/main/ecosystem/training/smartup-training-card-mobile.jpg', media: '(max-width: 414px)' },
-        { src: '/assets/images/main/ecosystem/training/smartup-training-card.jpg', media: '(min-width: 414px)' },
+        { src: './assets/images/main/ecosystem/training/smartup-training-card-mobile.jpg', media: '(max-width: 414px)' },
+        { src: './assets/images/main/ecosystem/training/smartup-training-card.jpg', media: '(min-width: 414px)' },
       ],
       srcsetDesktop: [
-        { src: '/assets/images/main/ecosystem/training/smartup-training-card-mobile.jpg', media: '(max-width: 1100px)' },
-        { src: '/assets/images/main/ecosystem/training/smartup-training-card.jpg', media: '(min-width: 1100px)' },
+        { src: '.', media: '(max-width: 1100px)' },
+        { src: './assets/images/main/ecosystem/training/smartup-training-card.jpg', media: '(min-width: 1100px)' },
       ],
-      src: '/assets/images/main/ecosystem/training/smartup-training-card.jpg',
+      src: './assets/images/main/ecosystem/training/smartup-training-card.jpg',
       alt: 'Smartup Training',
     },
     title: 'SMARTUP_TRAINING',
@@ -22,14 +22,14 @@ export const cardsData = [
   {
     image: {
       srcset: [
-        { src: '/assets/images/main/ecosystem/community/smartup-community-card-mobile.jpg', media: '(max-width: 414px)' },
-        { src: '/assets/images/main/ecosystem/community/smartup-community-card.jpg', media: '(min-width: 414px)' },
+        { src: './assets/images/main/ecosystem/community/smartup-community-card-mobile.jpg', media: '(max-width: 414px)' },
+        { src: './assets/images/main/ecosystem/community/smartup-community-card.jpg', media: '(min-width: 414px)' },
       ],
       srcsetDesktop: [
-        { src: '/assets/images/main/ecosystem/community/smartup-community-card-mobile.jpg', media: '(max-width: 1100px)' },
-        { src: '/assets/images/main/ecosystem/community/smartup-community-card.jpg', media: '(min-width: 1100px)' },
+        { src: './assets/images/main/ecosystem/community/smartup-community-card-mobile.jpg', media: '(max-width: 1100px)' },
+        { src: './assets/images/main/ecosystem/community/smartup-community-card.jpg', media: '(min-width: 1100px)' },
       ],
-      src: '/assets/images/main/ecosystem/community/smartup-community-card.jpg',
+      src: './assets/images/main/ecosystem/community/smartup-community-card.jpg',
       alt: 'SmartUp Community',
     },
     title: 'SMARTUP_COMMUNITY',
@@ -40,14 +40,14 @@ export const cardsData = [
   {
     image: {
       srcset: [
-        { src: '/assets/images/main/ecosystem/career/smartup-career-card-mobile.jpg', media: '(max-width: 414px)' },
-        { src: '/assets/images/main/ecosystem/career/smartup-career-card.jpg', media: '(min-width: 414px)' },
+        { src: './assets/images/main/ecosystem/career/smartup-career-card-mobile.jpg', media: '(max-width: 414px)' },
+        { src: './assets/images/main/ecosystem/career/smartup-career-card.jpg', media: '(min-width: 414px)' },
       ],
       srcsetDesktop: [
-        { src: '/assets/images/main/ecosystem/career/smartup-career-card-mobile.jpg', media: '(max-width: 1100px)' },
-        { src: '/assets/images/main/ecosystem/career/smartup-career-card.jpg', media: '(min-width: 1100px)' },
+        { src: './assets/images/main/ecosystem/career/smartup-career-card-mobile.jpg', media: '(max-width: 1100px)' },
+        { src: './assets/images/main/ecosystem/career/smartup-career-card.jpg', media: '(min-width: 1100px)' },
       ],
-      src: '/assets/images/main/ecosystem/career/smartup-career-card.jpg',
+      src: './assets/images/main/ecosystem/career/smartup-career-card.jpg',
       alt: 'SmartUp Career',
     },
     title: 'SMARTUP_CAREER',

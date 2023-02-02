@@ -104,26 +104,26 @@ class TechnicalCoaches extends LitElement {
         }
         
         .coach-first {
-          background-image: url('/assets/images/main/our-cracks/josediago.jpeg');
+          background-image: url('./assets/images/main/our-cracks/josediago.jpeg');
           background-size: cover;
           background-position: 0px 0px;
           background-position: 0% 0%;
         }
         
         .coach-second {
-          background-image: url('/assets/images/main/our-cracks/arturozarzalejo.jpeg');
+          background-image: url('./assets/images/main/our-cracks/arturozarzalejo.jpeg');
           background-size: cover;
           background-position: 0% 0%;
         }
         
         .coach-third {
-          background-image: url('/assets/images/main/our-cracks/oriolfurnells.jpeg');
+          background-image: url('./assets/images/main/our-cracks/oriolfurnells.jpeg');
           background-size: cover;
           background-position: 0% 0%;
         }
         
         .coach-fourth {
-          background-image: url('/assets/images/main/our-cracks/alfonsoestepa.jpg');
+          background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           background-size: cover;
           background-position: 0% 0%;
         }
@@ -261,19 +261,19 @@ class TechnicalCoaches extends LitElement {
 
         @media screen and (min-width: 500px) {
           .coach-first {
-            background-image: url('/assets/images/main/our-cracks/josediago.jpeg');
+            background-image: url('./assets/images/main/our-cracks/josediago.jpeg');
           }
 
           .coach-second {
-            background-image: url('/assets/images/main/our-cracks/arturozarzalejo.jpeg');
+            background-image: url('./assets/images/main/our-cracks/arturozarzalejo.jpeg');
           }
 
           .coach-third {
-            background-image: url('/assets/images/main/our-cracks/oriolfurnells.jpeg');
+            background-image: url('./assets/images/main/our-cracks/oriolfurnells.jpeg');
           }
 
           .coach-fourth {
-            background-image: url('/assets/images/main/our-cracks/alfonsoestepa.jpg');
+            background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           }
         }
 

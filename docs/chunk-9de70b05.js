@@ -1,4 +1,4 @@
-import{L as t,S as e,c as i,h as s}from"./chunk-42178d44.js";customElements.define("bottom-card",class extends t{static get styles(){return[e,i`
+import{L as t,S as e,c as i,h as s}from"./chunk-3dad17c8.js";customElements.define("bottom-card",class extends t{static get styles(){return[e,i`
         :host{
           display: block;
         }
@@ -84,4 +84,4 @@ import{L as t,S as e,c as i,h as s}from"./chunk-42178d44.js";customElements.defi
           </div>
         </section> 
     `}_printBottomCards(){return this.cardsData=this.cardsData||[],this.cardsData.map(t=>s`<bottom-card .backgroundImage="${t.image}" .text="${t.text}"></bottom-card>`)}});
-//# sourceMappingURL=chunk-d7ce2736.js.map
+//# sourceMappingURL=chunk-9de70b05.js.map

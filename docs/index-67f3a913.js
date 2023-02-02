@@ -1,4 +1,4 @@
-import{L as t,S as e,c as i,h as s,g as n}from"./chunk-42178d44.js";import{d as a,c as r,e as o,a as d,s as c}from"./chunk-5ea27c9f.js";import{t as l}from"./chunk-85ef2c0a.js";let p;customElements.define("smartup-community-header",class extends t{static get styles(){return[e,i`
+import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as a,c as r,e as o,a as d,s as c}from"./chunk-7e592414.js";import{t as l}from"./chunk-85ef2c0a.js";let p;customElements.define("smartup-community-header",class extends t{static get styles(){return[e,i`
         #red-gradient {
           width: 100%;
           height: 100%;
@@ -854,4 +854,4 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-42178d44.js";import{d as 
       <smarter-leads></smarter-leads>
       <smarter-feed></smarter-feed>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;c({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-4afa9943.js.map
+//# sourceMappingURL=index-67f3a913.js.map

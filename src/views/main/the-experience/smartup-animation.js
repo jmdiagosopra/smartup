@@ -57,7 +57,7 @@ class SmartUpAnimation extends LitElement {
         }
 
         .container {
-          background-image: url('/assets/images/main/the-experience/background-mobile.jpg');
+          background-image: url('./assets/images/main/the-experience/background-mobile.jpg');
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-position: center; 

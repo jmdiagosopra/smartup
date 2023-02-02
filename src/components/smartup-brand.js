@@ -39,7 +39,7 @@ class SmartupBrand extends LitElement {
   render() {
     return html`
       <a href="/home" class="brand-images" aria-label="Sopra Steria">
-        <img class="smartup-logo" src="/assets/images/smartup-xperience-logo.png">
+        <img class="smartup-logo" src="./assets/images/smartup-xperience-logo.png">
       </a>
     `;
   }

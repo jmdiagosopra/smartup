@@ -145,8 +145,8 @@
         videoComponent = fixture('reviewVideo');
 
         videoComponent.card = {
-          src: '/assets/videos/previews/profile1.jpg',
-          video: '/assets/videos/video1.mp4'
+          src: './assets/videos/previews/profile1.jpg',
+          video: './assets/videos/video1.mp4'
         };
 
         videoComponent.isRunning = false;
@@ -167,7 +167,7 @@
 
         const regexPath = /.+?\:\/\/.+?(\/.+?)(?:#|\?|$)/;
         const videoSrc = regexPath.exec(source.src)[1];
-        const expectedSrc = '/assets/videos/video1.mp4';
+        const expectedSrc = './assets/videos/video1.mp4';
 
         assert.equal(videoSrc, expectedSrc);
       });

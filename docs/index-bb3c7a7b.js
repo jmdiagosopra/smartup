@@ -1,4 +1,4 @@
-import{L as t,S as e,c as i,h as s,g as a}from"./chunk-42178d44.js";import{a as n,s as o}from"./chunk-5ea27c9f.js";import"./chunk-d7ce2736.js";customElements.define("smartup-career-top-card",class extends t{static get styles(){return[e,i`
+import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{a as n,s as o}from"./chunk-7e592414.js";import"./chunk-9de70b05.js";customElements.define("smartup-career-top-card",class extends t{static get styles(){return[e,i`
         :host{
           display: block;
         }
@@ -1211,4 +1211,4 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-42178d44.js";import{a as 
       <smartup-career .bottomCardsData="${l}"></smartup-career>
       <smarter-path-container></smarter-path-container>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;o({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-6c621bb2.js.map
+//# sourceMappingURL=index-bb3c7a7b.js.map

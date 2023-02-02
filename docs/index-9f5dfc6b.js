@@ -1,4 +1,4 @@
-import{L as t,S as e,c as i,h as s,g as o}from"./chunk-42178d44.js";import{a as n,s as a}from"./chunk-5ea27c9f.js";import"./chunk-d7ce2736.js";customElements.define("smart-up",class extends t{static get styles(){return[e,i`
+import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as n,s as a}from"./chunk-7e592414.js";import"./chunk-9de70b05.js";customElements.define("smart-up",class extends t{static get styles(){return[e,i`
         :host{
           display: block;
         }
@@ -233,26 +233,26 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-42178d44.js";import{a as 
         }
         
         .coach-first {
-          background-image: url('/assets/images/main/our-cracks/josediago.jpeg');
+          background-image: url('./assets/images/main/our-cracks/josediago.jpeg');
           background-size: cover;
           background-position: 0px 0px;
           background-position: 0% 0%;
         }
         
         .coach-second {
-          background-image: url('/assets/images/main/our-cracks/arturozarzalejo.jpeg');
+          background-image: url('./assets/images/main/our-cracks/arturozarzalejo.jpeg');
           background-size: cover;
           background-position: 0% 0%;
         }
         
         .coach-third {
-          background-image: url('/assets/images/main/our-cracks/oriolfurnells.jpeg');
+          background-image: url('./assets/images/main/our-cracks/oriolfurnells.jpeg');
           background-size: cover;
           background-position: 0% 0%;
         }
         
         .coach-fourth {
-          background-image: url('/assets/images/main/our-cracks/alfonsoestepa.jpg');
+          background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           background-size: cover;
           background-position: 0% 0%;
         }
@@ -390,19 +390,19 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-42178d44.js";import{a as 
 
         @media screen and (min-width: 500px) {
           .coach-first {
-            background-image: url('/assets/images/main/our-cracks/josediago.jpeg');
+            background-image: url('./assets/images/main/our-cracks/josediago.jpeg');
           }
 
           .coach-second {
-            background-image: url('/assets/images/main/our-cracks/arturozarzalejo.jpeg');
+            background-image: url('./assets/images/main/our-cracks/arturozarzalejo.jpeg');
           }
 
           .coach-third {
-            background-image: url('/assets/images/main/our-cracks/oriolfurnells.jpeg');
+            background-image: url('./assets/images/main/our-cracks/oriolfurnells.jpeg');
           }
 
           .coach-fourth {
-            background-image: url('/assets/images/main/our-cracks/alfonsoestepa.jpg');
+            background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           }
         }
 
@@ -984,4 +984,4 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-42178d44.js";import{a as 
       <soft-skills></soft-skills>
       <technical-coaches></technical-coaches>
    `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;a({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-29d7b44b.js.map
+//# sourceMappingURL=index-9f5dfc6b.js.map

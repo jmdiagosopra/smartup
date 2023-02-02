@@ -24,7 +24,7 @@ class SmartUp extends LitElement {
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url(/assets/images/training/image-deploy-mobile.jpg) no-repeat;
+          background: url("./assets/images/training/image-deploy-mobile.jpg") no-repeat;
           background-size: cover;
           background-position-y: 88%;
           background-position-x: 28%;
@@ -133,7 +133,7 @@ class SmartUp extends LitElement {
           }
 
           .image-deploy {
-            background: url(/assets/images/training/image-deploy.jpg) no-repeat fixed;
+            background: url("./assets/images/training/image-deploy.jpg") no-repeat fixed;
             background-size: cover;
             background-position-y: 0;
             background-position-x: 0;

@@ -11,7 +11,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url(/assets/images/training/image-deploy-mobile.jpg) no-repeat;
+          background: url("./assets/images/training/image-deploy-mobile.jpg") no-repeat;
           background-size: cover;
           background-position-y: 88%;
           background-position-x: 28%;
@@ -120,7 +120,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
           }
 
           .image-deploy {
-            background: url(/assets/images/training/image-deploy.jpg) no-repeat fixed;
+            background: url("./assets/images/training/image-deploy.jpg") no-repeat fixed;
             background-size: cover;
             background-position-y: 0;
             background-position-x: 0;
@@ -942,7 +942,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
               </p>
             </div>
           </div>
-          <img src="/assets/images/training/white_ninja.svg">
+          <img src="./assets/images/training/white_ninja.svg">
           <div class="wrapper-left ${this.animated?"animated":""}">
             <div class="text-skills-left ${this.animated?"animated":""}">
               <h2 tabindex="0">
@@ -955,7 +955,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
           </div>
         </section>
       </section>
-    `}connectedCallback(){super.connectedCallback(),window.IntersectionObserver?this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.5,callback:this._handleIntersection.bind(this)}})):this.animated=!0}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubles:!0,composed:!0,detail:{element:this,threshold:.5}}))}_handleIntersection([{isIntersecting:t}]){this.animated=t,t&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.5}}))}});const c=[{title:"TECHSKILLSTRACKS_FRONTENDTRACK_TITLE",description:"TECHSKILLSTRACKS_FRONTENDTRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_FRONTENDTRACK_SKILLS",src:"/assets/images/training/tech-skills-tracks-front-end-image-resized.jpg",srcset:[{src:"/assets/images/training/tech-skills-tracks-front-end-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"/assets/images/training/tech-skills-tracks-front-end-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"left"},{title:"TECHSKILLSTRACKS_BACKENDTRACK_TITLE",description:"TECHSKILLSTRACKS_BACKENDTRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_BACKENDTRACK_SKILLS",src:"/assets/images/training/tech-skills-tracks-back-end-image-resized.jpg",srcset:[{src:"/assets/images/training/tech-skills-tracks-back-end-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"/assets/images/training/tech-skills-tracks-back-end-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"right"},{title:"TECHSKILLSTRACKS_QATRACK_TITLE",description:"TECHSKILLSTRACKS_QATRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_QATRACK_SKILLS",src:"/assets/images/training/tech-skills-tracks-qa-image-resized.jpg",srcset:[{src:"/assets/images/training/tech-skills-tracks-qa-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"/assets/images/training/tech-skills-tracks-qa-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"left",paddingTop:!0}],l=[{text:"SMARTUP_BOTTOM_CARDONE_TEXT",image:"url(/assets/images/training/card1.jpg)"},{text:"SMARTUP_BOTTOM_CARDTWO_TEXT",image:"url(/assets/images/training/card2.jpg)"},{text:"SMARTUP_BOTTOM_CARDTHREE_TEXT",image:"url(/assets/images/training/card3.jpg)"}];window.customElements.define("training-view",class extends t{static get styles(){return[e,i`
+    `}connectedCallback(){super.connectedCallback(),window.IntersectionObserver?this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.5,callback:this._handleIntersection.bind(this)}})):this.animated=!0}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubles:!0,composed:!0,detail:{element:this,threshold:.5}}))}_handleIntersection([{isIntersecting:t}]){this.animated=t,t&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.5}}))}});const c=[{title:"TECHSKILLSTRACKS_FRONTENDTRACK_TITLE",description:"TECHSKILLSTRACKS_FRONTENDTRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_FRONTENDTRACK_SKILLS",src:"./assets/images/training/tech-skills-tracks-front-end-image-resized.jpg",srcset:[{src:"./assets/images/training/tech-skills-tracks-front-end-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"./assets/images/training/tech-skills-tracks-front-end-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"left"},{title:"TECHSKILLSTRACKS_BACKENDTRACK_TITLE",description:"TECHSKILLSTRACKS_BACKENDTRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_BACKENDTRACK_SKILLS",src:"./assets/images/training/tech-skills-tracks-back-end-image-resized.jpg",srcset:[{src:"./assets/images/training/tech-skills-tracks-back-end-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"./assets/images/training/tech-skills-tracks-back-end-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"right"},{title:"TECHSKILLSTRACKS_QATRACK_TITLE",description:"TECHSKILLSTRACKS_QATRACK_DESCRIPTION",skills:"TECHSKILLSTRACKS_QATRACK_SKILLS",src:"./assets/images/training/tech-skills-tracks-qa-image-resized.jpg",srcset:[{src:"./assets/images/training/tech-skills-tracks-qa-image-resized-mobile.jpg",media:"(max-width: 768px)"},{src:"./assets/images/training/tech-skills-tracks-qa-image-resized.jpg",media:"(min-width: 768px)"}],textAlign:"left",paddingTop:!0}],l=[{text:"SMARTUP_BOTTOM_CARDONE_TEXT",image:"url(./assets/images/training/card1.jpg)"},{text:"SMARTUP_BOTTOM_CARDTWO_TEXT",image:"url(./assets/images/training/card2.jpg)"},{text:"SMARTUP_BOTTOM_CARDTHREE_TEXT",image:"url(./assets/images/training/card3.jpg)"}];window.customElements.define("training-view",class extends t{static get styles(){return[e,i`
         :host {
           height: 100%;
         }
@@ -975,8 +975,8 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
         }  
       `]}render(){return s`
       <hero-element .literals="${["TRAINING_XPERIENCE","TRAINING_XPERIENCE_SUBTITLE"]}" .scrollTo="${"smart-up"}">
-      <video slot="video" autoplay loop muted playsinline poster="/assets/videos/training-video-poster.jpg">
-        <source src="/assets/videos/training-video.mp4" type="video/mp4">
+      <video slot="video" autoplay loop muted playsinline poster="./assets/videos/training-video-poster.jpg">
+        <source src="./assets/videos/training-video.mp4" type="video/mp4">
       </video>
       </hero-element>
       <smart-up .smartUpBottomCardsData="${l}"></smart-up>
@@ -984,4 +984,4 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
       <soft-skills></soft-skills>
       <technical-coaches></technical-coaches>
    `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;a({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-9f5dfc6b.js.map
+//# sourceMappingURL=index-09a64f2a.js.map

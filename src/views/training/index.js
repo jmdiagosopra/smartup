@@ -47,8 +47,8 @@ class TrainingView extends LitElement {
   render() {
     return html`
       <hero-element .literals="${['TRAINING_XPERIENCE', 'TRAINING_XPERIENCE_SUBTITLE']}" .scrollTo="${'smart-up'}">
-      <video slot="video" autoplay loop muted playsinline poster="/assets/videos/training-video-poster.jpg">
-        <source src="/assets/videos/training-video.mp4" type="video/mp4">
+      <video slot="video" autoplay loop muted playsinline poster="./assets/videos/training-video-poster.jpg">
+        <source src="./assets/videos/training-video.mp4" type="video/mp4">
       </video>
       </hero-element>
       <smart-up .smartUpBottomCardsData="${smartupBottomCardsData}"></smart-up>

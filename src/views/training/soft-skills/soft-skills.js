@@ -192,7 +192,7 @@ class SoftSkills extends LitElement {
               </p>
             </div>
           </div>
-          <img src="/assets/images/training/white_ninja.svg">
+          <img src="./assets/images/training/white_ninja.svg">
           <div class="wrapper-left ${this.animated ? 'animated' : ''}">
             <div class="text-skills-left ${this.animated ? 'animated' : ''}">
               <h2 tabindex="0">

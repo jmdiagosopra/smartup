@@ -1,0 +1,137 @@
+{
+  "TRAINING": "Training",
+  "COMMUNITY": "Community",
+  "CAREER": "Career",
+  "HOME": "Home",
+  "404": "Página no encontrada",
+
+  "SMARTUP_XPERIENCE": "Smartup \n Xperience",
+  "SMARTUP_XPERIENCE_SUBTITLE": "Programa tu desarrollo profesional",
+
+  "TRAINING_XPERIENCE": "Smartup \n Training",
+  "TRAINING_XPERIENCE_SUBTITLE": "Desarrolla tu talento digital",
+
+  "THE_EXPERIENCE": "La experiencia",
+  "THE_EXPERIENCE_P1": "**SmartUp Xperience** es mucho más que una simple experiencia… Aquí tendrás la oportunidad de desarrollar tu carrera profesional y a la vez crecer como persona en un ambiente tecnológico y cercano ¿Quieres conocernos más a fondo? **Be Smarter!**",
+  "THE_EXPERIENCE_P2": "No nos importa si tienes poca o mucha experiencia, en **SmartUp Xperience** buscamos gente apasionada por la tecnología, con ganas de evolucionar y con un alto componente humano. ¿Piensas como nosotros? Entonces este es tu sitio… **Be Smarter!**",
+
+  "ECOSYSTEM": "Nuestro ecosistema",
+  "SMARTUP_TRAINING": "SmartUp \n Training",
+  "SMARTUP_COMMUNITY": "SmartUp \n Community",
+  "SMARTUP_COMMUNITY_SUBTITLE": "Comparte lo que te apasiona",
+  "SMARTUP_CAREER": "SmartUp \n Career",
+  "SMARTER_PATH": "Smarter \n Path",
+  "SMARTUP_CAREER_SUBTITLE": "El límite lo marcas tú",
+  "SMARTUP_TRAINING_P": "**SmartUp Training** no es la típica formación. Aquí tendrás la posibilidad de aprender o completar tus Technical Skills, Soft Skills y Cultura Digital sin importar tu nivel de experiencia. Nuestros Training Tracks se adaptarán perfectamente a tus necesidades. \n \n Con una metodología de trabajo tipo bootcamp y un enfoque totalmente centrado en tu desarrollo profesional y personal, en un plazo de uno a cuatro meses estarás completamente preparado para incorporarte a cualquiera de nuestros proyectos.",
+  "SMARTUP_COMMUNITY_P": "¿Te gusta asistir a eventos?, ¿dar charlas?, ¿compartir? En **SmartUp Community** encontrarás todas las iniciativas que desarrollamos dentro de la comunidad de Smarters con el objetivo de facilitar la comunicación entre todos nosotros, compartir conocimientos, apoyarnos en el día a día de los proyectos y, en definitiva, sentirnos parte de un equipo mucho más grande con el que compartimos nuestra pasión por la tecnología.",
+  "SMARTUP_CAREER_P": "Evaluación continua y personalizada. En **SmartUp Xperience** entendemos que la mejor manera de desarrollarte como profesional es a través de un sistema de mentoring en el que cada día crezcas y aprendas nuevas skills. \n \n Para conseguir esto hemos creado SmartUp Career, un plan de crecimiento y mejora de competencias digitales adaptado a tu perfil y tus expectativas de desarrollo profesional.",
+
+  "LIVING_THE_EXPERIENCE": "Quiero vivir \n la experiencia",
+  "LIVING_THE_EXPERIENCE_P": "¿Te apetece conocernos y formar parte de SmartUp Xperience? ¿Quieres ponerte a trabajar mano a mano con nosotros desde ya? **No te lo pienses ni un minuto más,** nosotros estamos deseando de tenerte en nuestro equipo y poder compartir contigo la experiencia.",
+  "WANT_TO_BE_SMARTER_BTN": "<Quiero_ser_Smarter/>",
+  "WANT_TO_BE_SMARTER_BTN_A11Y": "Quiero ser Smarter",
+  "WANT_TO_KNOW_MORE": "Quiero saber más",
+  "WANT_TO_SIGN_UP": "¡Quiero apuntarme!",
+  "ASK_US": "Pregúntanos",
+
+  "SMARTER_REVIEWS_TITLE": "Qué dicen los Smarters",
+
+  "OUR_CRACKS_TITLE": "Algunos de nuestros cracks",
+  "OF": "de",
+  "PREV_BUTTON": "Pasar al anterior grupo de diapositivas",
+  "NEXT_BUTTON": "Pasar al siguiente grupo de diapositivas",
+  "SLIDE": "Diapositiva",
+  "SLIDE_GROUP": "Grupo de diapositivas",
+
+  "PREV_REVIEW": "Opinión anterior",
+  "NEXT_REVIEW": "Siguiente opinión",
+  "GO_TO_REVIEW": "Ir a opinión",
+  "VIDEO_REF": "Your browser does not support the video tag.",
+
+  "NOT_SUPPORTED_VIDEO": "Your browser does not support the video tag.",
+
+  "FREQUENT_QUESTIONS": "Preguntas frecuentes",
+  "FREQUENT_QUESTION1": "¿Quién puede formar parte de SmartUp Xperience?",
+  "FREQUENT_QUESTION2": "Si ya tengo experiencia, ¿es SmartUp Xperience para mí?",
+  "FREQUENT_QUESTION3": "¿Cómo puedo apuntarme?",
+  "FREQUENT_QUESTION4": "¿Hay fechas cerradas para apuntarse?",
+  "FREQUENT_QUESTION5": "¿Cómo sería mi día a día en SmartUp Xperience?",
+  "FREQUENT_QUESTION6": "¿Tienes más dudas?",
+  "FREQUENT_QUESTION1_P": "Cualquier persona apasionada por la tecnología que quiera mejorar sus capacidades en Front, Back, QA o Data y con muchas ganas de aprovechar esta oportunidad puede formar parte de SmartUp.",
+  "FREQUENT_QUESTION2_P": "Desde luego. En SmartUp Xperience encontrarás tu sitio independientemente de tu nivel de experiencia. Dentro del programa ajustaremos tu plan de formación y desarrollo en función de tus capacidades de aprendizaje y tus conocimientos previos, así como de tu nivel de experiencia en proyectos digitales.",
+  "FREQUENT_QUESTION3_P": "Muy fácil, simplemente tendrás que pulsar en el botón que encontrarás en el apartado “Quiero vivir la experiencia” y enviarnos un email. Nosotros estaremos encantados de ponernos en contacto contigo con la finalidad de conocernos y poder tomarnos un café juntos. ¿Te apetece?",
+  "FREQUENT_QUESTION4_P": "Rotundamente no. En SmartUp Xperience siempre estamos dispuestos a contar contigo en nuestro equipo. No nos sujetamos a fechas cerradas de inscripción. Cualquier momento es bueno para que des el paso y te animes a conocernos y entrar en nuestro equipo. ¡Te esperamos!",
+  "FREQUENT_QUESTION5_P": "Desde el primer día estarás inmerso en proyectos reales, trabajando codo con codo con tus compañeros y siendo mentorizado por nuestros technical leads. Durante todo momento serás formado en las últimas tecnologías, metodologías de trabajo ágiles, buenas prácticas y soft skills. Al finalizar el training te incorporarás en nuestros mejores proyectos.",
+
+  "MADE_WITH_LOVE_A11Y": "Hecho con amor por SmartUp",
+  "MADE_WITH_LOVE_1": "Hecho con",
+  "MADE_WITH_LOVE_2": "por SmartUp",
+
+  "WORKING_ON_A11Y": "Lo sentimos, aún estamos trabajando para hacer esta sección accesible",
+
+  "SMARTUP": "SMARTUP TRAINING",
+  "SMARTUP_BOX_TEXT": "En **SmartUp Training** encontrarás \n todo lo necesario para \n poder **desarrollar tu carrera \n profesional.** Un programa a medida que te permitirá  evolucionar y mejorar tus **Tech Skills, Soft Skills y Cultura Digital** ",
+  "SMARTUP_BOTTOM_CARDONE_TEXT": "Formación práctica \n en **proyectos reales**",
+  "SMARTUP_BOTTOM_CARDTWO_TEXT": "Desarrollo de proyectos \n aplicando **Metodologías \n ágiles y buenas prácticas**",
+  "SMARTUP_BOTTOM_CARDTHREE_TEXT": "Tutorización y seguimiento \n a medida a través de \n nuestro **Technical \n Coaches",
+
+  "TECHNICAL_COACHES": "TECHNICAL COACHES",
+  "TECHNICAL_COACHES_P": "Liderazgo, inspiración y mentorización. Un equipo involucrado y que cuente en todo momento con el apoyo de nuestros mejores profesionales",
+  "TECHNICAL_COACHES_SUBTITLE": "Conoce nuestros Technical Coaches",
+  "TECHNICAL_COACH_1_NAME": "Jose Manuel Diago",
+  "TECHNICAL_COACH_2_NAME": "Arturo Zarzalejo",
+  "TECHNICAL_COACH_3_NAME": "Oriol Furnells",
+  "TECHNICAL_COACH_4_NAME": "Alfonso Estepa",
+  "TECHNICAL_COACH_1_SUBTITLE": "Director / Manager",
+  "TECHNICAL_COACH_2_SUBTITLE": "Technical Coach",
+  "TECHNICAL_COACH_3_SUBTITLE": "Technical Coach",
+  "TECHNICAL_COACH_4_SUBTITLE": "Software Architect",
+  "TECHNICAL_COACH_1_BIO": "Estar colaborando en la creación y ejecución de SmartUp es, sin duda, uno de los momentos mas importantes en mi carrera profesional. Colaborar en SmartUp me obliga a mantenerme siempre un pasito por delante respecto a los Smarters, tecnológicamente hablando. Esto es algo que, como buen apasionado de la tecnología, me encanta.",
+  "TECHNICAL_COACH_2_BIO": "Trabajar en SmartUp Xperience es sinónimo de calidad. Tenemos la suerte de contar con un gran equipo humano en constante crecimiento, trabajando con las últimas tecnologías, velando por las buenas prácticas y desarrollado código de calidad, fomentando cultura de testing y trabajo en equipo. Personalmente me considero una persona inquieta tecnológicamente hablando, me encanta probar nuevas librerías o el último framework del momento, por supuesto reservando siempre tiempo para una buena serie, un buen juego o una buena cerveza con los amigos.",
+  "TECHNICAL_COACH_3_BIO": "Colaborar en SmartUp es el mayor reto profesional de mi carrera, porque te obliga a estar en la cresta de la ola y ser capaz de aplicar y enseñar las tendencias tecnológicas. Además trabajar de la mano de referentes técnicos de la compañía es todo un honor para mi.",
+  "TECHNICAL_COACH_4_BIO": "Trabajar en Smartup Xperience ha sido uno de los retos más complejos de mi carrera profesional. Estar en el día a día con el equipo trabajando sobre proyectos, resolviendo sus dudas, velando por las buenas prácticas, preparando charlas y viéndolos evolucionar cada día es una sensación que me anima a seguir tan enganchado como al principio.",
+
+  "BACK_TO_TOP_BUTTOM": "Volver al principio",
+  "ANIMATION_WORDS_LIST": ["tecnología", "aprendizaje", "oportunidad", "responsabilidad", "carrera", "comunidad", "profesional", "equipo", "calidad", "evaluación"],
+
+  "TECHSKILLSTRACKS_FRONTENDTRACK_TITLE": "FRONTEND TRACK",
+  "TECHSKILLSTRACKS_FRONTENDTRACK_DESCRIPTION": "Descubre nuestro track formativo en tecnologías FrontEnd \n y desarróllate profesionalmente en aquello que te apasiona.",
+  "TECHSKILLSTRACKS_FRONTENDTRACK_SKILLS": ["HTML", "CSS", "JAVASCRIPT", "WEBCOMPONENTS", "FRAMEWORKS JS"],
+
+  "TECHSKILLSTRACKS_BACKENDTRACK_TITLE": "BACKEND TRACK",
+  "TECHSKILLSTRACKS_BACKENDTRACK_DESCRIPTION": "¿Sientes que lo tuyo es la parte Back? en SmartUp \n encontrarás todo lo necesario para que \n alcances tus metas y desarrolles tus competencias \n hacia la rama que mejor se adapte a tu perfil.",
+  "TECHSKILLSTRACKS_BACKENDTRACK_SKILLS": ["JAVA8", "SPRING", "SQL", "OOP", "API REST", "MICROSERVICIOS"],
+
+  "TECHSKILLSTRACKS_QATRACK_TITLE": "QA TRACK",
+  "TECHSKILLSTRACKS_QATRACK_DESCRIPTION": "Los nuevos estándares de trabajo y metodologías ágiles han \n hecho que las pruebas unitarias y el control de calidad \n estén presentes desde el momento en que se \n pone en marcha un proyecto.",
+  "TECHSKILLSTRACKS_QATRACK_SKILLS": ["QA Fundaments", "Development", "Methodologies", "Tooling", "Advanced Testing", "Test automation", "Front & Back path"],
+
+  "SOFT_SKILLS" : "SOFT SKILLS Y CULTURA DIGITAL",
+  "SOFT_SKILLS_TITLE" : "SOFT SKILLS",
+  "SOFT_SKILLS_TEXT" :  "Desarrolla tus competencias personales, aprende a trabajar en un equipo ágil y conviértete en alguien capaz de comunicar de manera eficaz",
+  "SOFT_SKILLS_SECOND_TEXT" : "En SmartUp no buscamos a Han Solo, queremos a personas que disfruten trabajando en equipo y formando parte de algo más grande",
+  "CULTURA_DIGITAL_TITLE" : "CULTURA DIGITAL",
+  "CULTURA_DIGITAL_TEXT" :  "En SmartUp Xperience tenemos muy claro que el modo de trabajar es determinante para aportar una calidad diferencial. Aquí aprenderás a trabajar usando Clean Code, Metodologías ágiles, Pair Programming, Testing... \n No te lo pienses más ¡Te esperamos!",
+
+  "SMARTER_LEADS_PROGRAM_TITLE" : "SMARTER LEADS PROGRAM",
+  "SMARTER_LEADS_PROGRAM_PARAGRAPH" : "¿Te interesa desarrollarte? Conviértete en uno de nuestros **Smarter Leads** y transmite la cultura y **sentimiento de comunidad** al resto de Smarters. Crece como persona y como profesional.",
+  "SMARTER_LEADS_PROGRAM_DEVELOP" : "Desarrollo",
+  "SMARTER_LEADS_PROGRAM_COACHING" : "Coaching",
+  "SMARTER_LEADS_PROGRAM_COMMUNITY" : "Comunidad",
+  
+  "SMARTUP_COMMUNITY_TITLE": "SMARTUP COMMUNITY",
+  "SMARTUP_COMMUNITY_HEADER": "Un lugar en el que sientas que formas perte de algo más grande. En **SmartUp Community** podrás compartir, crecer y participar a través de Eventos, Meetups y Sesiones Tecnológicas.",
+  "SMARTUP_COMMUNITY_FIRSTCIRCLE_TEXT": "Asistencia \n **eventos tecnológicos**",
+  "SMARTUP_COMMUNITY_SECONDCIRCLE_TEXT": "Charlas técnicas \n **UpSessions**",
+  "SMARTUP_COMMUNITY_THIRDCIRCLE_TEXT": "Afterworks y \n **Team Buildiung**",
+
+  "SMARTER_FEED_TITLE" : "SMARTER FEED",
+  "SMARTER_FEED_TWITTER_NAME" : "Sopra Steria España",
+  "SMARTER_FEED_TWITTER" : "@SopraSteria_ES",
+
+  "SMARTUP_CAREER_COMPONENT_TITLE": "SMARTUP CAREER",
+  "SMARTUP_CAREER_COMPONENT_CARDONE_TEXT" : "Con **SmartUp Career** tendrás un plan \n de desarrollo profesional definido \n para que tú seas quien decide hasta \n donde quieres llegar. \n**El límite lo marcas tú.**",
+  "SMARTUP_CAREER_COMPONENT_CARDTWO_TEXT": "**Evaluaciones 360** cada \n 6 meses para que puedas \n orientar tu desarrollo",
+  "SMARTUP_CAREER_COMPONENT_CARDTHREE_TEXT": "Un **Plan de Carrera** definido \n y de largo recorrido",
+  "SMARTUP_CAREER_COMPONENT_CARDFOUR_TEXT": "Un programa de **Coaching y mentorización a medida** para darte un desarrollo que \n encaje a la perfección contigo"
+}

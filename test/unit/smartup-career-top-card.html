@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="smartupCareerTopCard">
+    <template>
+      <smartup-career-top-card></smartup-career-top-card>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/career/smartup-career/smartup-career-top-card.js'
+     
+    suite('SmartUp Career Top Card validation', () => {
+      let SmartupCareerTopCard;
+        setup(async () => {
+          SmartupCareerTopCard = fixture('smartupCareerTopCard');
+          // Make tests wait until element is rendered.
+          return await SmartupCareerTopCard.updateComplete;
+        });
+
+        test('Needed properties', () => {
+          assert.typeOf(SmartupCareerTopCard.textDisplacement, 'boolean');
+        });
+
+        test('Default values for the properties', () => {
+          assert.isFalse(SmartupCareerTopCard.textDisplacement, false);
+        });
+      });
+
+    suite('When scrolling over <smartup-career-top-card> Component, Intersection Observer is dispatched and the needed properties change', () => {
+      const SmartupCareerTopCard = fixture('smartupCareerTopCard');
+
+      test('Changing values for the properties', () => {
+        SmartupCareerTopCard._handleIntersection([{isIntersecting: true}]);
+        assert.equal(SmartupCareerTopCard.textDisplacement, true);
+      });
+    });
+
+  </script>
+</body>
+
+</html>

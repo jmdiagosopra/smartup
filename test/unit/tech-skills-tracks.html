@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>tech-skills-tracks-tests</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="techSkillsTracks">
+    <template>
+      <tech-skills-tracks>
+      </tech-skills-tracks>
+    </template>
+  </test-fixture>
+
+  
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '/src/views/training/tech-skills-tracks/tech-skills-tracks.js';
+    import '/src/views/training/tech-skills-tracks/single-tech-track.js';
+     
+    suite('Training TechSkillsTracks default components validation', () => {
+      let techSkillsTracks;
+        setup(async () => {
+          techSkillsTracks = fixture('techSkillsTracks');
+          // Make tests wait until element is rendered.
+          return await techSkillsTracks.updateComplete;
+        });
+
+      test('Needed properties', () => {
+        assert.typeOf(techSkillsTracks.singleTechTracks, 'Array');
+      });
+
+      test('Default values for the elements of the propertie singleTechTracks', () => {
+        assert.equal(techSkillsTracks.singleTechTracks[0].title, 'TECHSKILLSTRACKS_FRONTENDTRACK_TITLE');
+        assert.equal(techSkillsTracks.singleTechTracks[0].description, 'TECHSKILLSTRACKS_FRONTENDTRACK_DESCRIPTION');
+        assert.equal(techSkillsTracks.singleTechTracks[0].skills, 'TECHSKILLSTRACKS_FRONTENDTRACK_SKILLS');
+        assert.equal(techSkillsTracks.singleTechTracks[0].image, '/assets/images/training/tech-skills-tracks-front-end-image-resized.jpg');
+        assert.equal(techSkillsTracks.singleTechTracks[0].textAlign, 'left');
+        assert.equal(techSkillsTracks.singleTechTracks[1].title, 'TECHSKILLSTRACKS_BACKENDTRACK_TITLE');
+        assert.equal(techSkillsTracks.singleTechTracks[1].description, 'TECHSKILLSTRACKS_BACKENDTRACK_DESCRIPTION');
+        assert.equal(techSkillsTracks.singleTechTracks[1].skills, 'TECHSKILLSTRACKS_BACKENDTRACK_SKILLS');
+        assert.equal(techSkillsTracks.singleTechTracks[1].image, '/assets/images/training/tech-skills-tracks-back-end-image-resized.jpg');
+        assert.equal(techSkillsTracks.singleTechTracks[1].textAlign, 'right');
+        assert.equal(techSkillsTracks.singleTechTracks[2].title, 'TECHSKILLSTRACKS_QATRACK_TITLE');
+        assert.equal(techSkillsTracks.singleTechTracks[2].description, 'TECHSKILLSTRACKS_QATRACK_DESCRIPTION');
+        assert.equal(techSkillsTracks.singleTechTracks[2].skills, 'TECHSKILLSTRACKS_QATRACK_SKILLS');
+        assert.equal(techSkillsTracks.singleTechTracks[2].image, '/assets/images/training/tech-skills-tracks-qa-image-resized.jpg');
+        assert.equal(techSkillsTracks.singleTechTracks[2].textAlign, 'left');
+        assert.isTrue(techSkillsTracks.singleTechTracks[2].paddingTop);
+      });
+
+    });
+
+    suite('Instantiation of childComponents goes right', () => {
+    let techSkillsTracks;
+
+      setup(async () => {
+        techSkillsTracks = fixture('techSkillsTracks');
+       
+        // Make tests wait until element is rendered.
+        return await techSkillsTracks.updateComplete;
+      });
+
+      test('Once the component is instantiated, there are three child components', () => {
+
+        const singleTechTrackLength = techSkillsTracks.shadowRoot.querySelectorAll('single-tech-track');
+        assert.equal(singleTechTrackLength.length, 3);
+      });
+    });
+
+    
+  </script>
+</body>
+
+</html>

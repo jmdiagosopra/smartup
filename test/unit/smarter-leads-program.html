@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>samrter leads program</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="smarter-leads">
+    <template>
+      <smarter-leads></smarter-leads>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/community/index.js';
+    import '../../src/views/community/smarter-leads/smarter-leads.js';
+     
+    suite('Training <smarter-leads> validation', () => {
+      let SmarterLeads;
+        setup(async () => {
+          SmarterLeads = fixture('smarter-leads');
+          // Make tests wait until element is rendered.
+          return await SmarterLeads.updateComplete;
+        });
+
+        test('Needed properties', () => {
+          assert.typeOf(SmarterLeads.animated, 'boolean');
+        });
+
+        test('Default values for the properties', () => {
+          assert.isFalse(SmarterLeads.animated)
+        });
+
+      });
+
+    suite('When scrolling over <smarter-leads> Component, Intersection Observer is dispatched and the needed properties change', () => {
+      const SmarterLeads = fixture('smarter-leads');
+
+      test('Changing values for the properties', () => {
+        SmarterLeads._handleIntersection([{isIntersecting: true}])
+        assert.equal(SmarterLeads.animated, true);
+      });
+    });
+
+    suite('Testing lifecycle methods', () => {
+      const SmarterLeads = fixture('smarter-leads');
+
+      test('connectedCallback() should dispatch an event', () => {
+        SmarterLeads.addEventListener('start-observing-intersection', (e) => {
+          expect(e.type).to.equal('start-observing-intersection');
+        })
+        SmarterLeads.connectedCallback();
+      });
+      
+      test('disconnectedCallback() should dispatch an event', () => {
+        SmarterLeads.addEventListener('stop-observing-intersection', (e) => {
+          expect(e.type).to.equal('stop-observing-intersection');
+        })
+        SmarterLeads.connectedCallback();
+      });
+    });
+
+  </script>
+</body>
+
+</html>

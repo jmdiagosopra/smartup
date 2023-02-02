@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>bottomcard-container-test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="bottomcards-container-default">
+    <template>
+      <bottomcards-container></bottomcards-container>
+    </template>
+  </test-fixture>
+
+  <test-fixture id="bottomcards-container-with-cardsData">
+    <template>
+      <bottomcards-container></bottomcards-container>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/components/cards-element/bottomcards-container.js';
+    import { smartupCareerBottomCardsData } from '../../src/views/career/smartup-career/smartup-career-data.js';
+     
+    suite('bottomCardsContainer component default validation', () => {
+      let bottomCardsContainer;
+      setup(async () => {
+        bottomCardsContainer = fixture('bottomcards-container-default');
+        // Make tests wait until element is rendered.
+        return await bottomCardsContainer.updateComplete;
+      });
+
+      test('Needed properties', () => {
+        assert.typeOf(bottomCardsContainer.cardsData, 'array');
+      });
+
+      test('Default values for the propertie', () => {
+        assert.isEmpty(bottomCardsContainer.cardsData);
+      });
+    });
+      
+    suite('Checking if the component prints the needed bottom-cards instances', () => {
+      let bottomCardsContainer;
+      setup(async () => {
+        bottomCardsContainer = fixture('bottomcards-container-with-cardsData');
+        bottomCardsContainer.cardsData = smartupCareerBottomCardsData;
+        // Make tests wait until element is rendered.
+        return await bottomCardsContainer.updateComplete;
+      });
+
+      test('There are as many bottomcard instances as there are elements in the array', () => {
+        assert.equal(bottomCardsContainer.shadowRoot.querySelectorAll('bottom-card').length, 3);
+      });
+    });
+
+  </script>
+</body>
+
+</html>

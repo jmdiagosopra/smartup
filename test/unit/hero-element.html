@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="basic">
+    <template>
+      <hero-element>
+        <video></video>
+      </hero-element>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/components/hero-element.js';
+
+    const LITERALS = ['text1', 'text2'];
+
+    document.addEventListener('WebComponentsReady', () => {
+      suite('Validating default component API', () => {
+
+        suite('hero-element tests', function () {
+          let el;
+          setup(function () {
+            el = fixture('basic');
+            el.literals = LITERALS;
+            // Make tests wait until element is rendered.
+            return el.updateComplete;
+          });
+
+          test('Elements loaded', function () {
+            assert.isNotNull(el.shadowRoot.querySelector('h1'));
+            assert.isNotNull(el.shadowRoot.querySelector('h2'));
+            assert.isNotNull(el.shadowRoot.querySelector('slot'));
+            assert.isNotNull(el.querySelector('video'));
+          });
+
+          test('Behaviour when icon is clicked', (done) => {
+            const icon = el.shadowRoot.querySelector('button');
+            el.addEventListener('scroll-automatic', e => {
+              assert.isNotNull(e);
+              done();
+            });
+            icon.click();
+          });
+
+          test('Literals are correctly set', () => {
+            const h1 = el.shadowRoot.querySelector('h1').querySelector('lit-i18n');
+            const h2 = el.shadowRoot.querySelector('h2').querySelector('lit-i18n');
+            assert.equal(h1.textContent, LITERALS[0]);
+            assert.equal(h2.textContent, LITERALS[1]);
+          });
+
+          test('a11y', function () {
+            return axeReport(el);
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

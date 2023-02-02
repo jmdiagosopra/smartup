@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>single tech track</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="singleTechTrack">
+    <template>
+      <single-tech-track></single-tech-track>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '/src/views/training/tech-skills-tracks/single-tech-track.js';
+
+     
+    suite('Training SingleTechTrack default components validation', () => {
+      let singleTechTrack;
+        setup(async () => {
+          singleTechTrack = fixture('singleTechTrack');
+          // Make tests wait until element is rendered.
+          singleTechTrack.header = "FRONTEND TRACK"
+          singleTechTrack.description = "Testing description"
+          singleTechTrack.skills = ["HTML", "CSS", "JAVASCRIPT", "WEBCOMPONENTS" ,"FRAMEWORK.JS"]
+          singleTechTrack.image = '/assets/images/training/tech-skills-tracks-front-end-image-resized.jpg'
+          singleTechTrack.textAlign = "left"
+          return await singleTechTrack.updateComplete;
+        });
+
+      test('Needed properties', () => {
+        assert.typeOf(singleTechTrack.header, 'String');
+        assert.typeOf(singleTechTrack.textAlign, 'String');
+        assert.typeOf(singleTechTrack.description, 'String');
+        assert.typeOf(singleTechTrack.skills, 'Array');
+        assert.typeOf(singleTechTrack.image, 'String');
+        assert.typeOf(singleTechTrack.paddingTop, 'Boolean');
+        assert.typeOf(singleTechTrack.opacityChange, 'Boolean');
+        assert.typeOf(singleTechTrack.textDisplacement, 'Boolean');
+        assert.typeOf(singleTechTrack.imageAppearing, 'Boolean');
+      });
+
+      test('Binding works right', () => {
+        assert.equal(singleTechTrack.header, "FRONTEND TRACK");
+        assert.equal(singleTechTrack.description, "Testing description")
+        assert.equal(singleTechTrack.skills[0], "HTML")
+        assert.equal(singleTechTrack.skills[1], "CSS")
+        assert.equal(singleTechTrack.skills[2], "JAVASCRIPT")
+        assert.equal(singleTechTrack.skills[3], "WEBCOMPONENTS")
+        assert.equal(singleTechTrack.skills[4], "FRAMEWORK.JS")
+        assert.equal(singleTechTrack.image, '/assets/images/training/tech-skills-tracks-front-end-image-resized.jpg')
+        assert.equal(singleTechTrack.textAlign, "left")
+
+      });
+
+     test('Checking the change on properties when inIntersecting is fired', () => {
+      singleTechTrack._handleIntersection([{isIntersecting: true}]);
+        assert.isTrue(singleTechTrack.opacityChange);
+        assert.isTrue(singleTechTrack.textDisplacement);
+    
+      singleTechTrack._handleSecondIntersection([{isIntersecting: true}]);
+        assert.isTrue(singleTechTrack.imageAppearing);
+
+      });
+    });
+  
+
+
+  </script>
+</body>
+
+</html>

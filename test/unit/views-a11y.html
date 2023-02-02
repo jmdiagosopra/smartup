@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>views a11y</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+      // Redux assumes `process.env.NODE_ENV` exists in the ES module build.
+      // https://github.com/reactjs/redux/issues/2907
+      window.process = { env: { NODE_ENV: 'production' } };
+    </script>
+
+    <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="../../node_modules/mocha/mocha.js"></script>
+    <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+  </head>
+  <body>
+    <test-fixture id="main-view">
+      <template>
+        <main-view active></main-view>
+      </template>
+    </test-fixture>
+    <test-fixture id="view404">
+      <template>
+        <view-404 active></view-404>
+      </template>
+    </test-fixture>
+
+    <script type="module">
+      import '@polymer/test-fixture';
+      import 'axe-core/axe.min.js';
+      import {axeReport} from 'pwa-helpers/axe-report.js';
+      import '../../src/views/main/index.js';
+      import '../../src/views/view-404.js';
+
+      suite('views a11y tests', function() {
+        test('main-view', function() {
+          const el = fixture('main-view');
+          return axeReport(el);
+        });
+        test('view404', function() {
+          const el = fixture('view404');
+          return axeReport(el);
+        });
+      });
+    </script>
+  </body>
+</html>

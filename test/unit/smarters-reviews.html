@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+  <link rel="import" href="../../src/views/main/smarters-reviews/utils/cards.js">
+
+</head>
+
+<body>
+
+  <test-fixture id="smarterReviews">
+    <template>
+      <smarters-reviews></smarters-reviews>
+    </template>
+  </test-fixture>
+
+  <test-fixture id="slideDots">
+    <template>
+      <slide-dots></slide-dots>
+    </template>
+  </test-fixture>
+
+  <test-fixture id="reviewVideo">
+    <template>
+      <review-video></review-video>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/main/smarters-reviews/smarters-reviews.js';
+    import '../../src/views/main/smarters-reviews/slide-dots.js';
+    import '../../src/views/main/smarters-reviews/review-video.js';
+
+    suite('Smarters-reviews components evaluation', () => {
+      let carrouselBox;
+      let properties;
+      const videoBox = fixture('reviewVideo');
+
+      setup(() => {
+        carrouselBox = fixture('smarterReviews');
+        properties = carrouselBox.constructor.properties;
+        // Make tests wait until element is rendered.
+        return carrouselBox.updateComplete;
+      });
+
+      test('Needed properties', () => {
+        assert.typeOf(properties.auto.type(), 'boolean');
+        assert.typeOf(properties.interval.type(), 'number');
+        assert.typeOf(properties.coordinate.type(), 'number');
+        assert.typeOf(properties.index.type(), 'number');
+        assert.typeOf(properties.card.type(), 'string');
+        assert.typeOf(properties.speed.type(), 'string');
+        assert.typeOf(properties.isRunning.type(), 'boolean');
+        assert.typeOf(properties.minTouchLength.type(), 'number');
+        assert.typeOf(properties.minTouchAngle.type(), 'number');
+      });
+
+      test('Default values for the properties', () => {
+        assert.equal(carrouselBox.animationSpeed, '.8');
+        assert.equal(carrouselBox.auto, true);
+        assert.equal(carrouselBox.interval, 8000);
+        assert.equal(carrouselBox.coordinate, 0);
+        assert.equal(carrouselBox.index, 0);
+        assert.equal(carrouselBox.isRunning, false);
+        assert.equal(carrouselBox.minTouchLength, 70);
+        assert.equal(carrouselBox.minTouchAngle, 30);
+      });
+
+      test('Needed sub-components', () => {
+        const slideDotsComponent = carrouselBox.shadowRoot.querySelector('slide-dots');
+        const reviewCardComponent = carrouselBox.shadowRoot.querySelector('review-card');
+        assert.isNotNull(slideDotsComponent);
+        assert.isNotNull(reviewCardComponent);
+      });
+
+      test('Default n elements', () => {
+        const container = carrouselBox.shadowRoot.querySelectorAll('review-card');
+        assert.equal(container.length, 5);
+      });
+
+    });
+
+    suite('Slide-dots component evaluation', () => {
+      let slideDots;
+
+      setup(() => {
+        slideDots = fixture('slideDots');
+      });
+
+      test('Index type', () => {
+        assert.typeOf(slideDots.index, 'number');
+      });
+      
+      test('N printed cards', (done) => {
+        slideDots.index = 0;
+        slideDots.nElements = 5;
+        
+        flush(() => {
+          assert.equal(slideDots.dotsArray.length, 5);
+          done();
+        });
+      });
+    });
+
+      suite('Slide-dots component slide test', () => {
+        const carrouselBox = fixture('smarterReviews');
+
+        test('Default index position', () => {
+          assert.equal(carrouselBox.index, 0);
+        });
+
+        test('Default coordinate', () => {
+          assert.equal(carrouselBox.coordinate, 0);
+        });
+
+        test('Right click', () => {
+          const btnLeft = carrouselBox.shadowRoot.querySelector('#right');
+          btnLeft.click();
+          assert.equal(carrouselBox.index, 1);
+        });
+
+        test('Left click two times', () => {
+          const btnLeft = carrouselBox.shadowRoot.querySelector('#left');
+          btnLeft.click();
+          btnLeft.click();
+          assert.equal(carrouselBox.index, 4);
+        });   
+    });
+
+    suite('Review-video component', () => {
+      let videoComponent;
+
+      setup(async () => {
+        videoComponent = fixture('reviewVideo');
+
+        videoComponent.card = {
+          src: '/assets/videos/previews/profile1.jpg',
+          video: '/assets/videos/video1.mp4'
+        };
+
+        videoComponent.isRunning = false;
+
+        return await videoComponent.updateComplete;
+      });
+
+      test('Check video', () => {
+        const video = videoComponent.shadowRoot.querySelector('#video');
+        const source = videoComponent.shadowRoot.querySelector('source');
+        const playButton = videoComponent.shadowRoot.querySelector('.play-icon');
+
+        assert.equal(video.style.display, 'none');
+
+        playButton.click();
+        
+        assert.equal(video.style.display, 'block');
+
+        const regexPath = /.+?\:\/\/.+?(\/.+?)(?:#|\?|$)/;
+        const videoSrc = regexPath.exec(source.src)[1];
+        const expectedSrc = '/assets/videos/video1.mp4';
+
+        assert.equal(videoSrc, expectedSrc);
+      });
+
+      test('Stop current video', async () => {
+        
+        const playButton = videoComponent.shadowRoot.querySelector('.play-icon');
+        const video = videoComponent.shadowRoot.querySelector('#video');
+        const div = videoComponent.shadowRoot.querySelector('#preview');
+        
+        video.click();
+
+        assert.equal(div.style.visibility, 'visible');
+        assert.equal(video.style.display, 'none');
+        assert.equal(video.currentTime, 0);
+        assert.equal(video.paused, true);
+      });
+    });
+
+  </script>
+</body>
+
+</html>

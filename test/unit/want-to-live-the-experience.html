@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Testing the component: the-want-to-live-the-experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    // Redux assumes `process.env.NODE_ENV` exists in the ES module build.
+    // https://github.com/reactjs/redux/issues/2907
+    window.process = { env: { NODE_ENV: 'production' } };
+  </script>
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+
+</head>
+
+<body>
+  <test-fixture id="defaultComponent">
+    <template>
+      <want-to-live-the-experience></want-to-live-the-experience>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/main/index.js';
+    import '../../src/views/main/want-to-live-the-experience/want-to-live-the-experience.js';
+      suite('Component behavior', function () {
+        const wantToLiveTheExperience = fixture('defaultComponent');
+      
+        test('Check instance in DOM', function () {
+          assert.isNotNull(wantToLiveTheExperience.shadowRoot.querySelector('.title'));
+          assert.isNotNull(wantToLiveTheExperience.shadowRoot.querySelector('p'));
+          assert.isNotNull(wantToLiveTheExperience.shadowRoot.querySelector('.navigation-buttons'));
+          assert.isNotNull(wantToLiveTheExperience.shadowRoot.querySelector('.primary-button'));
+        });
+        test('Check the bottom properties', function () {
+          assert.equal(wantToLiveTheExperience.shadowRoot.querySelector('.primary-button').href, "mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience" );
+        });
+      });
+  </script>
+</body>
+
+</html>
+

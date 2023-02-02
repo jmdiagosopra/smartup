@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>bottom-card-test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="bottomCards">
+    <template>
+      <bottom-card></bottom-card>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/components/cards-element/bottom-card.js';
+     
+    suite('bottomCards default components validation', () => {
+      let bottomCards;
+      setup(async () => {
+        bottomCards = fixture('bottomCards');
+        // Make tests wait until element is rendered.
+        return await bottomCards.updateComplete;
+      });
+
+      test('Needed properties', () => {
+        assert.typeOf(bottomCards.decreasedOpacity, 'boolean');
+        assert.typeOf(bottomCards.centeredText, 'boolean');
+        assert.typeOf(bottomCards.text, 'String');
+        assert.typeOf(bottomCards.backgroundImage, 'String');
+      });
+      
+      test('Default values for the properties', () => {
+        assert.isFalse(bottomCards.decreasedOpacity);
+        assert.isFalse(bottomCards.centeredText);
+        assert.isEmpty(bottomCards.text);
+        assert.isEmpty(bottomCards.backgroundImage);
+      });
+    });
+      
+    suite('If we scroll over a bottom-card component, Intersection Observer is dispatched and the needed properties change', () => {
+      let bottomCards;
+      setup(async () => {
+        bottomCards = fixture('bottomCards');
+        // Make tests wait until element is rendered.
+        return await bottomCards.updateComplete;
+      });
+
+      test('Changing values for the interserction-reacting properties', () => {
+        bottomCards._handleIntersection([{isIntersecting: true}])
+        assert.isTrue(bottomCards.decreasedOpacity);
+        assert.isTrue(bottomCards.centeredText);
+      });
+    });
+
+  </script>
+</body>
+
+</html>

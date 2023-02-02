@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="smarterPathMobile">
+    <template>
+      <smarter-path-mobile></smarter-path-mobile>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/career/index.js';
+    import '../../src/views/career/smarter-path/smarter-path-desktop.js';
+     
+    suite('Training smarterPathMobile default components validation', () => {
+      let smarterPathMobile;
+      setup(async () => {
+        smarterPathMobile = fixture('smarterPathMobile');
+        // Make tests wait until element is rendered.
+        return await smarterPathMobile.updateComplete;
+      });
+
+      test('Needed properties', () => {
+        assert.typeOf(smarterPathMobile.animated, 'boolean');
+        assert.typeOf(smarterPathMobile.pathSteps, 'array');
+        assert.typeOf(smarterPathMobile.stepSelected, 'string');
+      });
+
+      test('Default values for the properties', () => {
+        assert.isFalse(smarterPathMobile.animated);
+      });
+    });
+
+    suite('If we scroll over <smarter-path-mobile> Component, Intersection Observer is dispatched and the needed properties change', () => {
+      const smarterPathMobile = fixture('smarterPathMobile');
+
+      test('Changing values for the properties', () => {
+        smarterPathMobile._handleIntersection([{isIntersecting: true}])
+        assert.equal(smarterPathMobile.animated, true);
+      });
+    });
+
+    suite('Ninja circles get generated with _generateSteps()', () => {
+      const smarterPathMobile = fixture('smarterPathMobile');
+
+      test('Generating 4 circles while iterating a 4 items array', () => {
+        expect(smarterPathMobile._generateSteps()).to.have.length(4);
+      });
+      
+      test('Elements should be `html` type', () => {
+        expect(smarterPathMobile._generateSteps()[0].type).to.equal( 'html' );
+      });
+    });
+    
+    suite('Testing lifecycle methods', () => {
+      const smarterPathMobile = fixture('smarterPathMobile');
+
+      test('connectedCallback() should dispatch an event', () => {
+        smarterPathMobile.addEventListener('start-observing-intersection', (e) => {
+          expect(e.type).to.equal('start-observing-intersection');
+        })
+        smarterPathMobile.connectedCallback();
+      });
+
+      test('disconnectedCallback() should dispatch an event', () => {
+        smarterPathMobile.addEventListener('stop-observing-intersection', (e) => {
+          expect(e.type).to.equal('stop-observing-intersection');
+        })
+        smarterPathMobile.connectedCallback();
+      });
+    });
+  </script>
+</body>
+
+</html>

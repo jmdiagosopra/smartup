@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="basic">
+    <template>
+      <card-collapse></card-collapse>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/components/card-collapse.js';
+
+    document.addEventListener('WebComponentsReady', () => {
+      suite('Validating default component API', () => {
+        suite('card-collapse tests', () => {
+          let el;
+
+          setup(() => {
+            el = fixture('basic');
+            // Make tests wait until element is rendered.
+            return el.updateComplete;
+          });
+
+          test('Check properties', () => {
+            const properties = el.constructor.properties;
+            const expectedProps = ['isOpened', 'hasOverlay', 'hasTriangle', 'scrollTo'];
+
+            Object.keys(properties).forEach((property, i) => {
+              assert.equal(property, expectedProps[i]);
+            });
+          });
+
+          test('Check instance slots', () => {
+            const expectedSlots = ['header', 'body'];
+            expectedSlots.forEach((slot) => {
+              assert.isNotNull(el.shadowRoot.querySelector(`slot[name="${slot}"]`));
+            });
+          });
+
+          test('Behaviour when click card', (done) => {
+            const header = el.shadowRoot.querySelector('.header');
+
+            el.addEventListener('opened-card', function ({detail: {id}}) {
+              assert.isNotNull(id);
+              assert.equal(id, el.generatedID);
+              done();
+            });
+
+            header.click();
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

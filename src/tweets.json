@@ -1,0 +1,2373 @@
+{
+  "results": [
+      {
+          "created_at": "Mon Jul 01 11:53:14 +0000 2019",
+          "id": 1145661636935671808,
+          "id_str": "1145661636935671808",
+          "text": "Si te gusta el Rock'n Roll y te apasiona la tecnología apunta estas fechas 👉 16 y 17 de julio ¡no te pierdas… https://t.co/O1JWQKQYUX",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Si te gusta el Rock'n Roll y te apasiona la tecnología apunta estas fechas 👉 16 y 17 de julio ¡no te pierdas #DigitalES2019!\n\n🗓️ 16 y 17 de julio \n⌛ 9.00h \n📍Palacete Duques de Pastrana https://t.co/DCIizSJMuK",
+              "display_text_range": [
+                  0,
+                  184
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "DigitalES2019",
+                          "indices": [
+                              109,
+                              123
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1145661635425722369,
+                          "id_str": "1145661635425722369",
+                          "indices": [
+                              185,
+                              208
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D-Y1L_xX4AEtid6.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D-Y1L_xX4AEtid6.jpg",
+                          "url": "https://t.co/DCIizSJMuK",
+                          "display_url": "pic.twitter.com/DCIizSJMuK",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1145661636935671808/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 800,
+                                  "h": 398,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 800,
+                                  "h": 398,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 338,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1145661635425722369,
+                          "id_str": "1145661635425722369",
+                          "indices": [
+                              185,
+                              208
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D-Y1L_xX4AEtid6.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D-Y1L_xX4AEtid6.jpg",
+                          "url": "https://t.co/DCIizSJMuK",
+                          "display_url": "pic.twitter.com/DCIizSJMuK",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1145661636935671808/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 800,
+                                  "h": 398,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 800,
+                                  "h": 398,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 338,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3,
+          "favorite_count": 3,
+          "entities": {
+              "hashtags": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/O1JWQKQYUX",
+                      "expanded_url": "https://twitter.com/i/web/status/1145661636935671808",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          110,
+                          133
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Wed Jun 26 11:13:32 +0000 2019",
+          "id": 1143839705840177152,
+          "id_str": "1143839705840177152",
+          "text": "Ampliamos nuestros equipo de #Valencia con un/a analista desarrollador #Java. Tendrás que liderar el equipo y super… https://t.co/q02TcoSFR1",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Ampliamos nuestros equipo de #Valencia con un/a analista desarrollador #Java. Tendrás que liderar el equipo y supervisar el desarrollo de aplicaciones de la Administración Pública. Si tienes experiencia y quieres asumir este reto ¡te esperamos! 👉 https://t.co/Cd4mqorOpu https://t.co/rwTcsb2FBM",
+              "display_text_range": [
+                  0,
+                  270
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "Valencia",
+                          "indices": [
+                              29,
+                              38
+                          ]
+                      },
+                      {
+                          "text": "Java",
+                          "indices": [
+                              71,
+                              76
+                          ]
+                      }
+                  ],
+                  "urls": [
+                      {
+                          "url": "https://t.co/Cd4mqorOpu",
+                          "expanded_url": "http://ow.ly/snPl50uNc66",
+                          "display_url": "ow.ly/snPl50uNc66",
+                          "indices": [
+                              247,
+                              270
+                          ]
+                      }
+                  ],
+                  "user_mentions": [],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1143839704099565568,
+                          "id_str": "1143839704099565568",
+                          "indices": [
+                              271,
+                              294
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9-8JorXsAASsHa.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9-8JorXsAASsHa.jpg",
+                          "url": "https://t.co/rwTcsb2FBM",
+                          "display_url": "pic.twitter.com/rwTcsb2FBM",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143839705840177152/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1143839704099565568,
+                          "id_str": "1143839704099565568",
+                          "indices": [
+                              271,
+                              294
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9-8JorXsAASsHa.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9-8JorXsAASsHa.jpg",
+                          "url": "https://t.co/rwTcsb2FBM",
+                          "display_url": "pic.twitter.com/rwTcsb2FBM",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143839705840177152/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 1,
+          "favorite_count": 1,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "Valencia",
+                      "indices": [
+                          29,
+                          38
+                      ]
+                  },
+                  {
+                      "text": "Java",
+                      "indices": [
+                          71,
+                          76
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/q02TcoSFR1",
+                      "expanded_url": "https://twitter.com/i/web/status/1143839705840177152",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Wed Jun 26 11:11:43 +0000 2019",
+          "id": 1143839250347167744,
+          "id_str": "1143839250347167744",
+          "text": "Hola! @MaricelaOssa ¿qué necesitas? El correo de RRHH es seleccion@soprasteria.com",
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": false,
+          "in_reply_to_status_id": 1143609357227237376,
+          "in_reply_to_status_id_str": "1143609357227237376",
+          "in_reply_to_user_id": 1068149784349949953,
+          "in_reply_to_user_id_str": "1068149784349949953",
+          "in_reply_to_screen_name": "MaricelaOssa",
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "entities": {
+              "hashtags": [],
+              "urls": [],
+              "user_mentions": [
+                  {
+                      "screen_name": "MaricelaOssa",
+                      "name": "Maricela De La Ossa Garcia",
+                      "id": 1068149784349949953,
+                      "id_str": "1068149784349949953",
+                      "indices": [
+                          6,
+                          19
+                      ]
+                  }
+              ],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Tue Jun 25 15:47:42 +0000 2019",
+          "id": 1143546314900328451,
+          "id_str": "1143546314900328451",
+          "text": "Comienza el meetup de #CleanCode con los #smarters de #SmartUpXperience en nuestras oficinas de #Madrid con… https://t.co/1mCeWS0Fos",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Comienza el meetup de #CleanCode con los #smarters de #SmartUpXperience en nuestras oficinas de #Madrid con @alfEstepa. \n\n#DigitalHappensHere https://t.co/s0nSOe9P5N",
+              "display_text_range": [
+                  0,
+                  141
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "CleanCode",
+                          "indices": [
+                              22,
+                              32
+                          ]
+                      },
+                      {
+                          "text": "smarters",
+                          "indices": [
+                              41,
+                              50
+                          ]
+                      },
+                      {
+                          "text": "SmartUpXperience",
+                          "indices": [
+                              54,
+                              71
+                          ]
+                      },
+                      {
+                          "text": "Madrid",
+                          "indices": [
+                              96,
+                              103
+                          ]
+                      },
+                      {
+                          "text": "DigitalHappensHere",
+                          "indices": [
+                              122,
+                              141
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [
+                      {
+                          "screen_name": "alfEstepa",
+                          "name": "Alfonso Estepa",
+                          "id": 1055356855,
+                          "id_str": "1055356855",
+                          "indices": [
+                              108,
+                              118
+                          ]
+                      }
+                  ],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1143546313029705734,
+                          "id_str": "1143546313029705734",
+                          "indices": [
+                              142,
+                              165
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D96xUBxX4AYiyM9.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D96xUBxX4AYiyM9.jpg",
+                          "url": "https://t.co/s0nSOe9P5N",
+                          "display_url": "pic.twitter.com/s0nSOe9P5N",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143546314900328451/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "medium": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 372,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1143546313029705734,
+                          "id_str": "1143546313029705734",
+                          "indices": [
+                              142,
+                              165
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D96xUBxX4AYiyM9.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D96xUBxX4AYiyM9.jpg",
+                          "url": "https://t.co/s0nSOe9P5N",
+                          "display_url": "pic.twitter.com/s0nSOe9P5N",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143546314900328451/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "medium": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 372,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 4,
+          "favorite_count": 10,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "CleanCode",
+                      "indices": [
+                          22,
+                          32
+                      ]
+                  },
+                  {
+                      "text": "smarters",
+                      "indices": [
+                          41,
+                          50
+                      ]
+                  },
+                  {
+                      "text": "SmartUpXperience",
+                      "indices": [
+                          54,
+                          71
+                      ]
+                  },
+                  {
+                      "text": "Madrid",
+                      "indices": [
+                          96,
+                          103
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/1mCeWS0Fos",
+                      "expanded_url": "https://twitter.com/i/web/status/1143546314900328451",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          109,
+                          132
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Mon Jun 24 15:42:29 +0000 2019",
+          "id": 1143182614469255168,
+          "id_str": "1143182614469255168",
+          "text": "Empezamos una nueva formación en nuestra oficina de #Madrid con el equipo de #SmartUpXperience. Hoy @alfEstepa habl… https://t.co/6roDh5zH9L",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Empezamos una nueva formación en nuestra oficina de #Madrid con el equipo de #SmartUpXperience. Hoy @alfEstepa habla de #microservicios a nuestros #smarters 💪\n\n#DigitalHappensHere https://t.co/fj1WTB2rq7",
+              "display_text_range": [
+                  0,
+                  179
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "Madrid",
+                          "indices": [
+                              52,
+                              59
+                          ]
+                      },
+                      {
+                          "text": "SmartUpXperience",
+                          "indices": [
+                              77,
+                              94
+                          ]
+                      },
+                      {
+                          "text": "microservicios",
+                          "indices": [
+                              120,
+                              135
+                          ]
+                      },
+                      {
+                          "text": "smarters",
+                          "indices": [
+                              147,
+                              156
+                          ]
+                      },
+                      {
+                          "text": "DigitalHappensHere",
+                          "indices": [
+                              160,
+                              179
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [
+                      {
+                          "screen_name": "alfEstepa",
+                          "name": "Alfonso Estepa",
+                          "id": 1055356855,
+                          "id_str": "1055356855",
+                          "indices": [
+                              100,
+                              110
+                          ]
+                      }
+                  ],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1143182612548259841,
+                          "id_str": "1143182612548259841",
+                          "indices": [
+                              180,
+                              203
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D91mh35XkAEyr-M.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D91mh35XkAEyr-M.jpg",
+                          "url": "https://t.co/fj1WTB2rq7",
+                          "display_url": "pic.twitter.com/fj1WTB2rq7",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143182614469255168/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 372,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1143182612548259841,
+                          "id_str": "1143182612548259841",
+                          "indices": [
+                              180,
+                              203
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D91mh35XkAEyr-M.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D91mh35XkAEyr-M.jpg",
+                          "url": "https://t.co/fj1WTB2rq7",
+                          "display_url": "pic.twitter.com/fj1WTB2rq7",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1143182614469255168/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 372,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 751,
+                                  "h": 411,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3,
+          "favorite_count": 6,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "Madrid",
+                      "indices": [
+                          52,
+                          59
+                      ]
+                  },
+                  {
+                      "text": "SmartUpXperience",
+                      "indices": [
+                          77,
+                          94
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/6roDh5zH9L",
+                      "expanded_url": "https://twitter.com/i/web/status/1143182614469255168",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ],
+              "user_mentions": [
+                  {
+                      "screen_name": "alfEstepa",
+                      "name": "Alfonso Estepa",
+                      "id": 1055356855,
+                      "id_str": "1055356855",
+                      "indices": [
+                          100,
+                          110
+                      ]
+                  }
+              ],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Fri Jun 21 10:34:10 +0000 2019",
+          "id": 1142017860249821184,
+          "id_str": "1142017860249821184",
+          "text": "Estamos orgullosos de ser socios certificados de @Airbus formando parte de la plataforma de datos abierta #Skywise… https://t.co/c6sYoBVTW9",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Estamos orgullosos de ser socios certificados de @Airbus formando parte de la plataforma de datos abierta #Skywise para desarrollar servicios inteligentes e impulsar la aceleración digital de la industria aeroespacial. ✈ https://t.co/CR3wpSiboH https://t.co/u9u74wwBey",
+              "display_text_range": [
+                  0,
+                  244
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "Skywise",
+                          "indices": [
+                              106,
+                              114
+                          ]
+                      }
+                  ],
+                  "urls": [
+                      {
+                          "url": "https://t.co/CR3wpSiboH",
+                          "expanded_url": "http://ow.ly/I8DL50uJHm8",
+                          "display_url": "ow.ly/I8DL50uJHm8",
+                          "indices": [
+                              221,
+                              244
+                          ]
+                      }
+                  ],
+                  "user_mentions": [
+                      {
+                          "screen_name": "Airbus",
+                          "name": "Airbus",
+                          "id": 15425377,
+                          "id_str": "15425377",
+                          "indices": [
+                              49,
+                              56
+                          ]
+                      }
+                  ],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1142017858681151488,
+                          "id_str": "1142017858681151488",
+                          "indices": [
+                              245,
+                              268
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9lDMRnXoAANNf1.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9lDMRnXoAANNf1.jpg",
+                          "url": "https://t.co/u9u74wwBey",
+                          "display_url": "pic.twitter.com/u9u74wwBey",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1142017860249821184/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1142017858681151488,
+                          "id_str": "1142017858681151488",
+                          "indices": [
+                              245,
+                              268
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9lDMRnXoAANNf1.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9lDMRnXoAANNf1.jpg",
+                          "url": "https://t.co/u9u74wwBey",
+                          "display_url": "pic.twitter.com/u9u74wwBey",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1142017860249821184/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 680,
+                                  "h": 440,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3,
+          "favorite_count": 3,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "Skywise",
+                      "indices": [
+                          106,
+                          114
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/c6sYoBVTW9",
+                      "expanded_url": "https://twitter.com/i/web/status/1142017860249821184",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          116,
+                          139
+                      ]
+                  }
+              ],
+              "user_mentions": [
+                  {
+                      "screen_name": "Airbus",
+                      "name": "Airbus",
+                      "id": 15425377,
+                      "id_str": "15425377",
+                      "indices": [
+                          49,
+                          56
+                      ]
+                  }
+              ],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Thu Jun 20 14:34:10 +0000 2019",
+          "id": 1141715873218072577,
+          "id_str": "1141715873218072577",
+          "text": "¿Tienes experiencia en desarrollo de #iOS? ¿Dominas el software de gestión de código fuente ? Si además conoces tec… https://t.co/rJZqRvio0v",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "¿Tienes experiencia en desarrollo de #iOS? ¿Dominas el software de gestión de código fuente ? Si además conoces tecnologías como #ReactiveJava, #Robolectric, #Appium, #AFTNetworking… ¡Te esperamos en nuestro equipo de #Barcelona! 👉 https://t.co/Nowr7auWRg\n\n#DigitalHappensHere https://t.co/UcHXcqoyEO",
+              "display_text_range": [
+                  0,
+                  276
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "iOS",
+                          "indices": [
+                              37,
+                              41
+                          ]
+                      },
+                      {
+                          "text": "ReactiveJava",
+                          "indices": [
+                              129,
+                              142
+                          ]
+                      },
+                      {
+                          "text": "Robolectric",
+                          "indices": [
+                              144,
+                              156
+                          ]
+                      },
+                      {
+                          "text": "Appium",
+                          "indices": [
+                              158,
+                              165
+                          ]
+                      },
+                      {
+                          "text": "AFTNetworking",
+                          "indices": [
+                              167,
+                              181
+                          ]
+                      },
+                      {
+                          "text": "Barcelona",
+                          "indices": [
+                              218,
+                              228
+                          ]
+                      },
+                      {
+                          "text": "DigitalHappensHere",
+                          "indices": [
+                              257,
+                              276
+                          ]
+                      }
+                  ],
+                  "urls": [
+                      {
+                          "url": "https://t.co/Nowr7auWRg",
+                          "expanded_url": "http://ow.ly/iRIl50uIXtd",
+                          "display_url": "ow.ly/iRIl50uIXtd",
+                          "indices": [
+                              232,
+                              255
+                          ]
+                      }
+                  ],
+                  "user_mentions": [],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1141715871603265536,
+                          "id_str": "1141715871603265536",
+                          "indices": [
+                              277,
+                              300
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9gwiUFWkAAdGfu.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9gwiUFWkAAdGfu.jpg",
+                          "url": "https://t.co/UcHXcqoyEO",
+                          "display_url": "pic.twitter.com/UcHXcqoyEO",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141715873218072577/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1141715871603265536,
+                          "id_str": "1141715871603265536",
+                          "indices": [
+                              277,
+                              300
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9gwiUFWkAAdGfu.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9gwiUFWkAAdGfu.jpg",
+                          "url": "https://t.co/UcHXcqoyEO",
+                          "display_url": "pic.twitter.com/UcHXcqoyEO",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141715873218072577/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 1,
+          "favorite_count": 1,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "iOS",
+                      "indices": [
+                          37,
+                          41
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/rJZqRvio0v",
+                      "expanded_url": "https://twitter.com/i/web/status/1141715873218072577",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Wed Jun 19 14:05:35 +0000 2019",
+          "id": 1141346289067708417,
+          "id_str": "1141346289067708417",
+          "text": "Lleno total en la ponencia 'Aproximación holística al aseguramiento de la calidad en contextos ágiles' de Miguel Án… https://t.co/37iTyMz0zp",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Lleno total en la ponencia 'Aproximación holística al aseguramiento de la calidad en contextos ágiles' de Miguel Ángel Alonso Head of Modern QA de Sopra Steria y Diego Molina Senior Software Engineer en Sauce Labs en #ExpoQA19. ¡Gracias a todos los asistentes! https://t.co/f12VUScPzE",
+              "display_text_range": [
+                  0,
+                  260
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "ExpoQA19",
+                          "indices": [
+                              217,
+                              226
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1141346287004061696,
+                          "id_str": "1141346287004061696",
+                          "indices": [
+                              261,
+                              284
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9bgZqKWkAA8nzE.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9bgZqKWkAA8nzE.jpg",
+                          "url": "https://t.co/f12VUScPzE",
+                          "display_url": "pic.twitter.com/f12VUScPzE",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141346289067708417/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "small": {
+                                  "w": 680,
+                                  "h": 430,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1141346286534348800,
+                          "id_str": "1141346286534348800",
+                          "indices": [
+                              261,
+                              284
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9bgZoaXUAA295n.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9bgZoaXUAA295n.jpg",
+                          "url": "https://t.co/f12VUScPzE",
+                          "display_url": "pic.twitter.com/f12VUScPzE",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141346289067708417/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 430,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1141346287004061696,
+                          "id_str": "1141346287004061696",
+                          "indices": [
+                              261,
+                              284
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9bgZqKWkAA8nzE.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9bgZqKWkAA8nzE.jpg",
+                          "url": "https://t.co/f12VUScPzE",
+                          "display_url": "pic.twitter.com/f12VUScPzE",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141346289067708417/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "small": {
+                                  "w": 680,
+                                  "h": 430,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "large": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1141346286534348800,
+                          "id_str": "1141346286534348800",
+                          "indices": [
+                              261,
+                              284
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9bgZoaXUAA295n.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9bgZoaXUAA295n.jpg",
+                          "url": "https://t.co/f12VUScPzE",
+                          "display_url": "pic.twitter.com/f12VUScPzE",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1141346289067708417/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 1000,
+                                  "h": 633,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 430,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3,
+          "favorite_count": 4,
+          "entities": {
+              "hashtags": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/37iTyMz0zp",
+                      "expanded_url": "https://twitter.com/i/web/status/1141346289067708417",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Tue Jun 18 10:13:44 +0000 2019",
+          "id": 1140925554130128896,
+          "id_str": "1140925554130128896",
+          "text": "Intensa mañana en #ExpoQA19. Acércate a nuestro stand EX5 y te contamos las soluciones sobre #testing #QA de… https://t.co/NjcQSuwPYX",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "Intensa mañana en #ExpoQA19. Acércate a nuestro stand EX5 y te contamos las soluciones sobre #testing #QA de #SopraSteria_ES. ¡Te esperamos! https://t.co/1alZKQRQFt",
+              "display_text_range": [
+                  0,
+                  140
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "ExpoQA19",
+                          "indices": [
+                              18,
+                              27
+                          ]
+                      },
+                      {
+                          "text": "testing",
+                          "indices": [
+                              93,
+                              101
+                          ]
+                      },
+                      {
+                          "text": "QA",
+                          "indices": [
+                              102,
+                              105
+                          ]
+                      },
+                      {
+                          "text": "SopraSteria_ES",
+                          "indices": [
+                              109,
+                              124
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1140925552284655617,
+                          "id_str": "1140925552284655617",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9VhvrMX4AELof2.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9VhvrMX4AELof2.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1140925551647047680,
+                          "id_str": "1140925551647047680",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9Vhvo0WwAAyuI2.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9Vhvo0WwAAyuI2.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1140925551881928704,
+                          "id_str": "1140925551881928704",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9VhvpsWwAAT-hY.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9VhvpsWwAAT-hY.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1140925552284655617,
+                          "id_str": "1140925552284655617",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9VhvrMX4AELof2.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9VhvrMX4AELof2.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1140925551647047680,
+                          "id_str": "1140925551647047680",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9Vhvo0WwAAyuI2.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9Vhvo0WwAAyuI2.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              }
+                          }
+                      },
+                      {
+                          "id": 1140925551881928704,
+                          "id_str": "1140925551881928704",
+                          "indices": [
+                              141,
+                              164
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9VhvpsWwAAT-hY.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9VhvpsWwAAT-hY.jpg",
+                          "url": "https://t.co/1alZKQRQFt",
+                          "display_url": "pic.twitter.com/1alZKQRQFt",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140925554130128896/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 859,
+                                  "h": 676,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 535,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 1,
+          "favorite_count": 5,
+          "entities": {
+              "hashtags": [
+                  {
+                      "text": "ExpoQA19",
+                      "indices": [
+                          18,
+                          27
+                      ]
+                  },
+                  {
+                      "text": "testing",
+                      "indices": [
+                          93,
+                          101
+                      ]
+                  },
+                  {
+                      "text": "QA",
+                      "indices": [
+                          102,
+                          105
+                      ]
+                  }
+              ],
+              "urls": [
+                  {
+                      "url": "https://t.co/NjcQSuwPYX",
+                      "expanded_url": "https://twitter.com/i/web/status/1140925554130128896",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          110,
+                          133
+                      ]
+                  }
+              ],
+              "user_mentions": [],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      },
+      {
+          "created_at": "Mon Jun 17 16:48:12 +0000 2019",
+          "id": 1140662438557339648,
+          "id_str": "1140662438557339648",
+          "text": "M. Ángel Alonso Head of Modern QA de Sopra Steria y Diego Molina Senior Software Engineer en @saucelabs tratan en u… https://t.co/AJCEE8WyG1",
+          "display_text_range": [
+              0,
+              140
+          ],
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 296891508,
+              "id_str": "296891508",
+              "name": "Sopra Steria España",
+              "screen_name": "SopraSteria_ES",
+              "location": "Madrid",
+              "url": "http://www.soprasteria.es/",
+              "description": "El Grupo Sopra Steria es líder europeo de la transformación digital, con más de 40000 profesionales.",
+              "translator_type": "none",
+              "protected": false,
+              "verified": false,
+              "followers_count": 1112,
+              "friends_count": 359,
+              "listed_count": 61,
+              "favourites_count": 435,
+              "statuses_count": 2254,
+              "created_at": "Wed May 11 15:32:41 +0000 2011",
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "profile_background_color": "DE1111",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": true,
+              "profile_link_color": "FF0000",
+              "profile_sidebar_border_color": "EDF2F5",
+              "profile_sidebar_fill_color": "E0DFD5",
+              "profile_text_color": "19181A",
+              "profile_use_background_image": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/709289438665375744/i9PP8qRa_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/296891508/1501484104",
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": null,
+              "follow_request_sent": null,
+              "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+              "full_text": "M. Ángel Alonso Head of Modern QA de Sopra Steria y Diego Molina Senior Software Engineer en @saucelabs tratan en una #SmartSessions las claves para asegurar la calidad en contextos ágiles caracterizados por desarrollos incrementales donde se busca la entrega continua de valor. https://t.co/bUx538efLT",
+              "display_text_range": [
+                  0,
+                  278
+              ],
+              "entities": {
+                  "hashtags": [
+                      {
+                          "text": "SmartSessions",
+                          "indices": [
+                              118,
+                              132
+                          ]
+                      }
+                  ],
+                  "urls": [],
+                  "user_mentions": [
+                      {
+                          "screen_name": "saucelabs",
+                          "name": "Sauce Labs",
+                          "id": 16672130,
+                          "id_str": "16672130",
+                          "indices": [
+                              93,
+                              103
+                          ]
+                      }
+                  ],
+                  "symbols": [],
+                  "media": [
+                      {
+                          "id": 1140662436929953792,
+                          "id_str": "1140662436929953792",
+                          "indices": [
+                              279,
+                              302
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9RycWHXYAAFIek.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9RycWHXYAAFIek.jpg",
+                          "url": "https://t.co/bUx538efLT",
+                          "display_url": "pic.twitter.com/bUx538efLT",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140662438557339648/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              },
+              "extended_entities": {
+                  "media": [
+                      {
+                          "id": 1140662436929953792,
+                          "id_str": "1140662436929953792",
+                          "indices": [
+                              279,
+                              302
+                          ],
+                          "media_url": "http://pbs.twimg.com/media/D9RycWHXYAAFIek.jpg",
+                          "media_url_https": "https://pbs.twimg.com/media/D9RycWHXYAAFIek.jpg",
+                          "url": "https://t.co/bUx538efLT",
+                          "display_url": "pic.twitter.com/bUx538efLT",
+                          "expanded_url": "https://twitter.com/SopraSteria_ES/status/1140662438557339648/photo/1",
+                          "type": "photo",
+                          "sizes": {
+                              "thumb": {
+                                  "w": 150,
+                                  "h": 150,
+                                  "resize": "crop"
+                              },
+                              "medium": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              },
+                              "small": {
+                                  "w": 680,
+                                  "h": 362,
+                                  "resize": "fit"
+                              },
+                              "large": {
+                                  "w": 920,
+                                  "h": 490,
+                                  "resize": "fit"
+                              }
+                          }
+                      }
+                  ]
+              }
+          },
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3,
+          "favorite_count": 5,
+          "entities": {
+              "hashtags": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/AJCEE8WyG1",
+                      "expanded_url": "https://twitter.com/i/web/status/1140662438557339648",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ],
+              "user_mentions": [
+                  {
+                      "screen_name": "saucelabs",
+                      "name": "Sauce Labs",
+                      "id": 16672130,
+                      "id_str": "16672130",
+                      "indices": [
+                          93,
+                          103
+                      ]
+                  }
+              ],
+              "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "es",
+          "matching_rules": [
+              {
+                  "tag": null
+              }
+          ]
+      }
+  ],
+  "next": "eyJhdXRoZW50aWNpdHkiOiIzZWUwYTg0MWEyM2EyNGQ3Nzg2MTZmYzg0Yjc1YmNkZTVlZWIzZWRjOGFlYmFlZjcxNjM1MTIxZjkzODBiZWU0IiwiZnJvbURhdGUiOiIyMDE5MDYwMjIzNTkiLCJ0b0RhdGUiOiIyMDE5MDcwMjEwMDUiLCJuZXh0IjoiMjAxOTA3MDIxMDA1MDAtMTE0MDY2MjQzODU1NzMzOTY0OC0wIn0=",
+  "requestParameters": {
+      "maxResults": 10,
+      "fromDate": "201906022359",
+      "toDate": "201907021005"
+  }
+}

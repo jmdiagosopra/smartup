@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my-view1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../node_modules/chai/chai.js"></script>
+  <script src="../../node_modules/mocha/mocha.js"></script>
+  <script src="../../node_modules/wct-mocha/wct-mocha.js"></script>
+</head>
+
+<body>
+  <test-fixture id="our-cracks">
+    <template>
+      <our-cracks></our-cracks>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    import '@polymer/test-fixture';
+    import 'axe-core/axe.min.js';
+    import { axeReport } from 'pwa-helpers/axe-report.js';
+    import '../../src/views/main/our-cracks/our-cracks.js';
+    import  { crackData } from '../../src/views/main/our-cracks/crack-data.js';
+
+
+    document.addEventListener('WebComponentsReady', () => {
+
+      suite('Validating default component API', () => {
+        let el;
+        setup(async () => {
+          el = fixture('our-cracks');
+          // Make tests wait until element is rendered.
+          return await el.updateComplete;
+        });
+
+        suite('Components fully loaded', () => {
+
+          test('Component loaded', () => {
+            assert.isNotNull(el.shadowRoot.querySelector('#cracks-slider-container'));
+          });
+
+          test('All properties exist', () => {
+            assert.isOk(Array.isArray(el.cracks));
+            assert.typeOf(el.index, 'number');
+            assert.typeOf(el.speed, 'number');
+            assert.typeOf(el.animationSpeed, 'number');
+            assert.typeOf(el.minTouchAngle, 'number');
+            assert.typeOf(el.minTouchLength, 'number');
+            assert.typeOf(el.autoplay, 'boolean');
+          });
+
+          test('Default properties correctly set', () => {
+            assert.equal(el.cracks.length, 0);
+            assert.equal(el.index, 0);
+            assert.equal(el.speed, 5000);
+            assert.equal(el.animationSpeed, 0.7);
+            assert.equal(el.minTouchLength, 70);
+            assert.equal(el.minTouchAngle, 30);
+            assert.isOk(el.autoplay);
+          });
+
+          test('Array length items are created', async () => {
+            el.cracks = crackData;
+            await el.updateComplete;
+
+            const elements = el.shadowRoot.querySelectorAll('single-crack');
+            assert.equal(elements.length, crackData.length);
+          });
+
+          test('All items are equally wide', async () => {
+            el.cracks = crackData;
+            await el.updateComplete;
+
+            const elements = el.shadowRoot.querySelectorAll('single-crack');
+            const elWidth = Array.from(elements).map((el)=>el.offsetWidth);
+            assert.isOk(elWidth.every((el, i, arr) => el === arr[0]));
+          });
+
+          test('If all items fit in one slide, arrows are disabled', async () => {
+            const singleCrack = [crackData[0]];
+            el.cracks = singleCrack;
+            await el.updateComplete;
+
+            const prevArrow = el.shadowRoot.querySelector('#prev[disabled]');
+            const nextArrow = el.shadowRoot.querySelector('#next[disabled]');
+            assert.isOk(prevArrow);
+            assert.isOk(nextArrow);
+          });
+        });
+
+        suite('Component works', () => {
+          setup(async () => {
+            el.cracks = crackData;
+            await el.updateComplete;
+            //buttons are not disabled by the previous update inside tests, must force it
+            el._buttonsDisabled = false;
+            await el.updateComplete;
+          });
+
+          test('Click on next arrow', () => {
+            const previousIndex = el.index;
+            el.shadowRoot.querySelector('#next').click();
+            assert.notEqual(previousIndex, el.index);
+          });
+
+          test('Click on previous', () => {
+            const previousIndex = el.index;
+            el.shadowRoot.querySelector('#prev').click();
+            assert.notEqual(previousIndex, el.index);
+          });
+
+          test('Autoplay works', (done) => {
+            const previousIndex = el.index;
+            el.speed = 100;
+            el.animationSpeed = 0;
+            el._startAutoplay();
+            setTimeout(() => {
+              assert.notEqual(el.index, previousIndex);
+              done();
+            }, el.speed);
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

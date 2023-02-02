@@ -5,9 +5,9 @@ const pngquant = require('imagemin-pngquant');
 const directories = {
   images: {
     input: './images/**/*.*',
-    output_es5: './build/es5-bundled/images',
-    output_es6: './build/es6-bundled/images',
-    output_esm: './build/esm-bundled/images',
+    output_es5: './docs/es5-bundled/images',
+    output_es6: './docs/es6-bundled/images',
+    output_esm: './docs/esm-bundled/images',
   },
 };
 

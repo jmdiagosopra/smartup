@@ -8,16 +8,16 @@ const replace = require('rollup-plugin-replace');
 const del = require('rollup-plugin-delete');
 
 const folders = {
-  build: resolvePath('.', 'build'),
-  build_assets: resolvePath('.', 'build', 'assets'),
+  build: resolvePath('.', 'docs'),
+  build_assets: resolvePath('.', 'docs', 'assets'),
   src: resolvePath('.', 'src'),
   src_assets: resolvePath('.', 'assets'),
 };
 
 const files = {
   main: joinPath(folders.src, 'index.js'),
-  src_index: resolvePath('.', 'index.html'),
-  src_manifest: resolvePath('.', 'manifest.json'),
+  src_index: resolvePath('./', 'index.html'),
+  src_manifest: resolvePath('./', 'manifest.json'),
   build_index: joinPath(folders.build, 'index.html'),
   build_manifest: resolvePath(folders.build, 'manifest.json'),
   src_noSoport: joinPath(folders.src, 'no-support.html'),

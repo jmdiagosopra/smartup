@@ -1173,7 +1173,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
 
         @media screen and (min-width: 500px) {
           .container {
-            background-image: url('/assets/images/main/the-experience/background.jpg');
+            background-image: url('./assets/images/main/the-experience/background.jpg');
           }
         }
 
@@ -1668,4 +1668,4 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
       <want-to-live-the-experience></want-to-live-the-experience>
       <frequent-questions></frequent-questions>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;r({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-734521fe.js.map
+//# sourceMappingURL=index-373a4b8b.js.map

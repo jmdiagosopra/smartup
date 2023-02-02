@@ -208,7 +208,7 @@ class SmartUpAnimation extends LitElement {
 
         @media screen and (min-width: 500px) {
           .container {
-            background-image: url('/assets/images/main/the-experience/background.jpg');
+            background-image: url('./assets/images/main/the-experience/background.jpg');
           }
         }
 

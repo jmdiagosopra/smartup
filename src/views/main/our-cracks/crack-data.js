@@ -12,6 +12,6 @@ export const crackData = [{
   picture: './assets/images/main/our-cracks/oriolfurnells.jpeg',
 }, {
   name: 'Alfonso Estepa',
-  job: 'Software Architech',
+  job: 'Software Architect',
   picture: './assets/images/main/our-cracks/alfonsoestepa.jpg',
 }];

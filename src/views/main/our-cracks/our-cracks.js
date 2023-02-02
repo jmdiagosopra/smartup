@@ -127,7 +127,7 @@ class OurCracks extends LitElement {
 
           .slider-container {
             padding: 0 220px;
-            background-image: url("/assets/images/main/our-cracks/background.jpg");
+            background-image: url("./assets/images/main/our-cracks/background.jpg");
           }
 
           .arrow-button {

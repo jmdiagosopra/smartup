@@ -17,7 +17,7 @@ export const cardsData = [
     title: 'SMARTUP_TRAINING',
     subtitle: 'Training',
     body: html`<lit-i18n>SMARTUP_TRAINING_P</lit-i18n>`,
-    urlButton: '/training',
+    urlButton: './training',
   },
   {
     image: {
@@ -35,7 +35,7 @@ export const cardsData = [
     title: 'SMARTUP_COMMUNITY',
     subtitle: 'Community',
     body: html`<lit-i18n>SMARTUP_COMMUNITY_P</lit-i18n>`,
-    urlButton: '/community',
+    urlButton: './community',
   },
   {
     image: {
@@ -53,6 +53,6 @@ export const cardsData = [
     title: 'SMARTUP_CAREER',
     subtitle: 'Career',
     body: html`<lit-i18n>SMARTUP_CAREER_P</lit-i18n>`,
-    urlButton: '/career',
+    urlButton: './career',
   },
 ];

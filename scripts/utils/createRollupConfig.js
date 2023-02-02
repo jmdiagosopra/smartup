@@ -17,8 +17,10 @@ const folders = {
 const files = {
   main: joinPath(folders.src, 'index.js'),
   src_index: resolvePath('./', 'index.html'),
+  src_error: resolvePath('./', '404.html'),
   src_manifest: resolvePath('./', 'manifest.json'),
   build_index: joinPath(folders.build, 'index.html'),
+  build_error: joinPath(folders.build, '404.html'),
   build_manifest: resolvePath(folders.build, 'manifest.json'),
   src_noSoport: joinPath(folders.src, 'no-support.html'),
   build_noSoport: joinPath(folders.build, 'no-support.html'),
@@ -50,6 +52,7 @@ const createRollupConfig = ({
       targets: {
         [folders.src_assets]: [folders.build_assets],
         [files.src_index]: [files.build_index],
+        [files.src_error]: [files.build_error],
         [files.src_manifest]: [files.build_manifest],
         [files.src_noSoport]: [files.build_noSoport],
       },

@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
+import { Router } from '@vaadin/router';
 
 /**
  * `smartup-brand` Description
@@ -38,7 +39,7 @@ class SmartupBrand extends LitElement {
 
   render() {
     return html`
-      <a href="/smartup/home" class="brand-images" aria-label="Sopra Steria">
+      <a href="/smartup/home" @click="${() => Router.go('/smartup/home')}" class="brand-images" aria-label="Sopra Steria">
         <img class="smartup-logo" src="./assets/images/smartup-xperience-logo.png">
       </a>
     `;

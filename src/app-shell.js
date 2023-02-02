@@ -372,8 +372,8 @@ class AppShell extends connect(store)(LitElement) {
         <div class="navigation-buttons">
           <nav>
             <ul class="toolbar-list">
-              <li><a ?selected="${this._page === 'training'}" href="./training" @click="${() => Router.go('./smartup/training')}"><lit-i18n>TRAINING</lit-i18n></a></li>
-              <li><a ?selected="${this._page === 'community'}" href=".community" @click="${() => Router.go('/community')}"><lit-i18n>COMMUNITY</lit-i18n></a></li>
+              <li><a ?selected="${this._page === 'training'}" href="./training" @click="${() => Router.go('/smartup/training')}"><lit-i18n>TRAINING</lit-i18n></a></li>
+              <li><a ?selected="${this._page === 'community'}" href=".community" @click="${() => Router.go('/smartup/community')}"><lit-i18n>COMMUNITY</lit-i18n></a></li>
               <li><a ?selected="${this._page === 'career'}" href="./career" @click="${() => Router.go('/smartup/career')}"><lit-i18n>CAREER</lit-i18n></a></li>
             </ul>
           </nav>
@@ -383,10 +383,10 @@ class AppShell extends connect(store)(LitElement) {
           <div class="toggle-bar" title="Menu" tabindex="3"></div>
         </div>
         <div ?opened="${this._drawerOpened}" class="drawer-list">
-          <a ?selected="${this._page === 'home'}" href="/home"><lit-i18n>HOME</lit-i18n></a>
-          <a ?selected="${this._page === 'training'}" href="/smartup/training"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
-          <a ?selected="${this._page === 'community'}" href="/smartup/community"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
-          <a ?selected="${this._page === 'career'}" href="/smartup/career"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
+          <a ?selected="${this._page === 'home'}" href="/home" @click="${() => Router.go('/smartup/home')}"><lit-i18n>HOME</lit-i18n></a>
+          <a ?selected="${this._page === 'training'}" href="/smartup/training" @click="${() => Router.go('/smartup/training')}"><lit-i18n>SMARTUP_TRAINING</lit-i18n></a>
+          <a ?selected="${this._page === 'community'}" href="/smartup/community" @click="${() => Router.go('/smartup/community')}"><lit-i18n>SMARTUP_COMMUNITY</lit-i18n></a>
+          <a ?selected="${this._page === 'career'}" href="/smartup/career" @click="${() => Router.go('/smartup/career')}"><lit-i18n>SMARTUP_CAREER</lit-i18n></a>
         </div>
       </header>
       

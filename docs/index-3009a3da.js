@@ -820,7 +820,7 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
           </div>
         </div>
         <div class="button">
-          <a href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${n("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
+          <a href="mailto:BeConnectedSpain@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${n("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
             <lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n>
           </a>
         </div>
@@ -854,4 +854,4 @@ import{L as t,S as e,c as i,h as s,g as n}from"./chunk-3dad17c8.js";import{d as 
       <smarter-leads></smarter-leads>
       <smarter-feed></smarter-feed>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;c({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-e5266bbb.js.map
+//# sourceMappingURL=index-3009a3da.js.map

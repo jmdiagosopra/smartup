@@ -127,6 +127,12 @@ class TechnicalCoaches extends LitElement {
           background-size: cover;
           background-position: 0% 0%;
         }
+
+        .coach-five {
+          background-image: url('./assets/images/main/our-cracks/sergiomonroy.jpg');
+          background-size: cover;
+          background-position: 0% 0%;
+        }
         
         .card {
           display: none;
@@ -275,6 +281,10 @@ class TechnicalCoaches extends LitElement {
           .coach-fourth {
             background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           }
+          
+          .coach-five {
+            background-image: url('./assets/images/main/our-cracks/sergiomonroy.jpg');
+          }
         }
 
         @media screen and (min-width: 768px) {
@@ -420,7 +430,7 @@ class TechnicalCoaches extends LitElement {
         </div>
 
         <div class="button">
-          <a href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${i18n('WANT_TO_BE_SMARTER_BTN_A11Y', true)}">
+          <a href="mailto:BeConnectedSpain@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${i18n('WANT_TO_BE_SMARTER_BTN_A11Y', true)}">
             <lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n>
           </a>
         </div>

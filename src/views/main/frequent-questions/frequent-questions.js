@@ -197,7 +197,7 @@ class FrequentQuestions extends LitElement {
 
         <div class="more-questions">
           <p class="doubts" tabindex="0"><lit-i18n>FREQUENT_QUESTION6</lit-i18n></p>
-          <a class="primary-button big question-link" href="mailto:bedigital@soprasteria.com">
+          <a class="primary-button big question-link" href="mailto:BeConnectedSpain@soprasteria.com">
             <lit-i18n>ASK_US</lit-i18n>
           </a>
         </div>

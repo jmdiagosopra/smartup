@@ -377,7 +377,7 @@ class AppShell extends connect(store)(LitElement) {
               <li><a ?selected="${this._page === 'career'}" href="./career" @click="${() => Router.go('/smartup/career')}"><lit-i18n>CAREER</lit-i18n></a></li>
             </ul>
           </nav>
-          <a class="primary-button big" id="want-know-btn" href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience"><lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n></a>
+          <a class="primary-button big" id="want-know-btn" href="mailto:BeConnectedSpain@soprasteria.com?subject=SmartUp+Xperience"><lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n></a>
         </div>
         <div ?clicked="${this._drawerOpened}" class="toggle-btn" @click="${this._menuButtonClicked}">
           <div class="toggle-bar" title="Menu" tabindex="3"></div>

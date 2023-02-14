@@ -256,6 +256,12 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
           background-size: cover;
           background-position: 0% 0%;
         }
+
+        .coach-five {
+          background-image: url('./assets/images/main/our-cracks/sergiomonroy.jpg');
+          background-size: cover;
+          background-position: 0% 0%;
+        }
         
         .card {
           display: none;
@@ -404,6 +410,10 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
           .coach-fourth {
             background-image: url('./assets/images/main/our-cracks/alfonsoestepa.jpg');
           }
+          
+          .coach-five {
+            background-image: url('./assets/images/main/our-cracks/sergiomonroy.jpg');
+          }
         }
 
         @media screen and (min-width: 768px) {
@@ -529,7 +539,7 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
         </div>
 
         <div class="button">
-          <a href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${o("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
+          <a href="mailto:BeConnectedSpain@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${o("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
             <lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n>
           </a>
         </div>
@@ -984,4 +994,4 @@ import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{a as 
       <soft-skills></soft-skills>
       <technical-coaches></technical-coaches>
    `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;a({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-d57a7df9.js.map
+//# sourceMappingURL=index-2cd7924b.js.map

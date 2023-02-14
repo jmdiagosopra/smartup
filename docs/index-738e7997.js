@@ -1,4 +1,4 @@
-import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as o,a as n,s as r,l as d,m as l,b as c}from"./chunk-7e592414.js";import{t as p,u as h,a as u}from"./chunk-85ef2c0a.js";const m=[{name:"Jose Manuel Diago",job:"Director / Manager",picture:"./assets/images/main/our-cracks/josediago.jpeg"},{name:"Arturo Zarzalejo",job:"Technical Coach",picture:"./assets/images/main/our-cracks/arturozarzalejo.jpeg"},{name:"Oriol Furnells",job:"Technical Coach",picture:"./assets/images/main/our-cracks/oriolfurnells.jpeg"},{name:"Alfonso Estepa",job:"Software Architect",picture:"./assets/images/main/our-cracks/alfonsoestepa.jpg"}],g=[{title:"SMARTER PROMISE",name:"ELEAZAR RIVERA",subtitle:"Backend Developer",description:"“SmartUp Xperience es una experiencia única que permite a cualquiera que no haya estado en el mundo del desarrollo poder desarrollarse como profesional, conocer a nuevos compañeros y además nos enseñan muchas tecnologías enfocadas a los negocios”\n\n“Me ha parecido una oportunidad de oro y la voy a aprovechar al máximo”",src:"./assets/videos/previews/profile1.jpg",video:"./assets/videos/video1.mp4"},{title:"SMARTER PROMISE",name:"CLAUDIA LORENZO",subtitle:"Frontend Developer",description:"“SmartUp es una gran experiencia tanto para la gente que tiene muchos años en el mundo de la programación, como para aquellos nuevos que se estén iniciando y quieran aprender casi desde cero”",src:"./assets/videos/previews/profile2.jpeg",video:"./assets/videos/video2.mp4"},{title:"SMARTER PROMISE",name:"ADRIÁN FERNÁNDEZ",subtitle:"Frontend Developer",description:"“Realizamos un aprendizaje bastante intensivo a la vez que vamos desarrollando proyectos reales para la compañía, siempre desde un marco de metodologías ágiles”",src:"./assets/videos/previews/profile3.jpeg",video:"./assets/videos/video3.mp4"},{title:"SMARTER PROMISE",name:"JACOB CASADO",subtitle:"Frontend developer",description:"“Gracias a los compañeros, al equipo técnico y a las personas que hacen posible SmartUp, pude crecer, pude sentirme uno más en esta gran comunidad y sobre todo sentirme agusto con lo que estaba haciendo”",src:"./assets/videos/previews/profile5.jpeg",video:"./assets/videos/video5.mp4"}];customElements.define("review-video",class extends t{static get styles(){return[e,i`
+import{L as t,S as e,c as i,h as s,g as o}from"./chunk-3dad17c8.js";import{p as a,a as n,s as r,l as d,m as l,b as c}from"./chunk-7e592414.js";import{t as p,u as h,a as u}from"./chunk-85ef2c0a.js";const m=[{name:"Jose Manuel Diago",job:"Director / Manager",picture:"./assets/images/main/our-cracks/josediago.jpeg"},{name:"Arturo Zarzalejo",job:"Technical Coach",picture:"./assets/images/main/our-cracks/arturozarzalejo.jpeg"},{name:"Oriol Furnells",job:"Technical Coach",picture:"./assets/images/main/our-cracks/oriolfurnells.jpeg"},{name:"Alfonso Estepa",job:"Software Architect",picture:"./assets/images/main/our-cracks/alfonsoestepa.jpg"},{name:"Sergio Monroy",job:"People Ops",picture:"./assets/images/main/our-cracks/sergiomonroy.jpg"}],g=[{title:"SMARTER PROMISE",name:"ELEAZAR RIVERA",subtitle:"Backend Developer",description:"“SmartUp Xperience es una experiencia única que permite a cualquiera que no haya estado en el mundo del desarrollo poder desarrollarse como profesional, conocer a nuevos compañeros y además nos enseñan muchas tecnologías enfocadas a los negocios”\n\n“Me ha parecido una oportunidad de oro y la voy a aprovechar al máximo”",src:"./assets/videos/previews/profile1.jpg",video:"./assets/videos/video1.mp4"},{title:"SMARTER PROMISE",name:"CLAUDIA LORENZO",subtitle:"Frontend Developer",description:"“SmartUp es una gran experiencia tanto para la gente que tiene muchos años en el mundo de la programación, como para aquellos nuevos que se estén iniciando y quieran aprender casi desde cero”",src:"./assets/videos/previews/profile2.jpeg",video:"./assets/videos/video2.mp4"},{title:"SMARTER PROMISE",name:"ADRIÁN FERNÁNDEZ",subtitle:"Frontend Developer",description:"“Realizamos un aprendizaje bastante intensivo a la vez que vamos desarrollando proyectos reales para la compañía, siempre desde un marco de metodologías ágiles”",src:"./assets/videos/previews/profile3.jpeg",video:"./assets/videos/video3.mp4"},{title:"SMARTER PROMISE",name:"JACOB CASADO",subtitle:"Frontend developer",description:"“Gracias a los compañeros, al equipo técnico y a las personas que hacen posible SmartUp, pude crecer, pude sentirme uno más en esta gran comunidad y sobre todo sentirme agusto con lo que estaba haciendo”",src:"./assets/videos/previews/profile5.jpeg",video:"./assets/videos/video5.mp4"}];customElements.define("review-video",class extends t{static get styles(){return[e,i`
         .container {
           width: 220px;
           height: 220px;
@@ -54,10 +54,10 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
       `]}static get properties(){return{card:{type:Object},isRunning:{type:Boolean},isCurrentCard:{type:Boolean}}}constructor(){super(),this.card={},this.isRunning=!1}render(){return s`
       <div class="container">
         <img id="preview" class="photo" src="${this.card.src}">
-        <button @click="${this._showVideo}" class="play-icon" tabindex="${this.isCurrentCard?0:-1}" aria-label="${a("VIDEO_REF",!0)+" "+this.card.name}">${o}</button>
+        <button @click="${this._showVideo}" class="play-icon" tabindex="${this.isCurrentCard?0:-1}" aria-label="${o("VIDEO_REF",!0)+" "+this.card.name}">${a}</button>
         <video id="video" @click="${this._stopVideo}" width="220" height="220">
             <source src="${this.card.video}" type="video/mp4">
-            ${a("NOT_SUPPORTED_VIDEO",!0)}
+            ${o("NOT_SUPPORTED_VIDEO",!0)}
           </video>
         </div>
         `}updated(t){t.get("isRunning")&&!this.isRunning||this._stopVideo()}_showVideo(){const t=this.shadowRoot.querySelector("#video");if(t.paused){const e=this.shadowRoot.querySelector("#preview");this.dispatchEvent(new CustomEvent("stopInterval",{composed:!0})),t.style.display="block",e.style.visibility="hidden",t.play(),t.onended=(()=>{this._stopVideo()})}else this.stopVideo()}_stopVideo(){const t=this.shadowRoot.querySelector("#preview"),e=this.shadowRoot.querySelector("#video");this.dispatchEvent(new CustomEvent("resetInterval",{composed:!0})),e.pause(),t.style.visibility="visible",e.style.display="none",e.currentTime=0}});customElements.define("review-card",class extends t{static get styles(){return i`
@@ -228,7 +228,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
         background-color: #d8336d;
       }
     `}static get properties(){return{index:{type:Number},nElements:{type:Number,reflect:!0},dotsArray:{type:Array}}}constructor(){super(),this.index=0,this.nElements=0,this.dotsArray=[]}render(){return s`
-      ${this.dotsArray.map((t,e)=>s`<button tabindex="0" @click="${()=>this.setPosition(e)}" id="${"a"+e}" class="dot" aria-label="${a("GO_TO_REVIEW",!0)+" "+(e+1)}"></button>`)}
+      ${this.dotsArray.map((t,e)=>s`<button tabindex="0" @click="${()=>this.setPosition(e)}" id="${"a"+e}" class="dot" aria-label="${o("GO_TO_REVIEW",!0)+" "+(e+1)}"></button>`)}
     `}firstUpdated(){this.setActive(this.index,"dot active")}updated(t){(this.index||t.get("index"))&&(this.setActive(this.index,"dot active"),this.setActive(t.get("index"),"dot"))}attributeChangedCallback(){const t=this.nElements,e=new Array(t).fill("");this.dotsArray=e}setActive(t,e){const i=this.shadowRoot.querySelector("#a"+t);i&&(i.classList=e)}setPosition(t){this.dispatchEvent(new CustomEvent("setPosition",{detail:t,composed:!0}))}});customElements.define("smarters-reviews",class extends t{static get styles(){return[e,i`
         section > * {
           max-width: 100%;
@@ -325,8 +325,8 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
           }
         }
       `]}static get properties(){return{coordinate:{type:Number},index:{type:Number},card:{type:String},speed:{type:String},auto:{type:Boolean},interval:{type:Number},isRunning:{type:Boolean},minTouchLength:{type:Number},minTouchAngle:{type:Number}}}constructor(){super(),this.coordinate=0,this.index=0,this.cards=g,this.animationSpeed=.8,this.auto=!0,this.interval=8e3,this.intervalRef=null,this.isRunning=!1,this.minTouchLength=70,this.minTouchAngle=30,this._focusEventsActive=[],this.EVENTS={mouseenter:"mouse",mouseleave:"mouse",focusin:"focus",focusout:"focus"},this.addEventListener("stopInterval",()=>{clearInterval(this.intervalRef),this.isRunning=!1}),this.addEventListener("resetInterval",()=>{this.isRunning=!0,this.auto&&this._startAutoplay()}),this.addEventListener("setPosition",this.setNewPosition),this.addEventListener("focusin",this._stopAutoplay.bind(this)),this.addEventListener("mouseenter",this._stopAutoplay.bind(this)),this.addEventListener("mouseleave",this.startInterval.bind(this)),this.addEventListener("focusout",this.startInterval.bind(this))}render(){return s`
-      <section aria-label="${a("SMARTER_REVIEWS_TITLE",!0)}" tabindex="0">
-        <h1 class="title section-header" aria-label="${a("SMARTER_REVIEWS_TITLE",!0)}" tabindex="0">
+      <section aria-label="${o("SMARTER_REVIEWS_TITLE",!0)}" tabindex="0">
+        <h1 class="title section-header" aria-label="${o("SMARTER_REVIEWS_TITLE",!0)}" tabindex="0">
           <lit-i18n>SMARTER_REVIEWS_TITLE</lit-i18n>
         </h1>
 
@@ -335,7 +335,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
 
           <div class="container">
             <div class="arrow-container">
-              <button id="left" aria-label="${a("PREV_REVIEW",!0)}" class="arrow arrow-left" @click="${()=>this.showNext(!1)}"><div class="rotate-left">${n}</div></button>
+              <button id="left" aria-label="${o("PREV_REVIEW",!0)}" class="arrow arrow-left" @click="${()=>this.showNext(!1)}"><div class="rotate-left">${n}</div></button>
             </div>
                 
             <div id="slide" class="slider-container">
@@ -345,12 +345,12 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
                 </div>
               `)}
               <div aria-live="polite" class="sr-only" tabindex="-1">
-                ${a("SMARTER_REVIEWS_TITLE")+": "+a("SLIDE")+" "+(this.index+1)+" "+a("OF")+" "+Math.ceil(this.cards.length)}
+                ${o("SMARTER_REVIEWS_TITLE")+": "+o("SLIDE")+" "+(this.index+1)+" "+o("OF")+" "+Math.ceil(this.cards.length)}
               </div>
             </div>
 
             <div class="arrow-container">
-              <button id="right" aria-label="${a("NEXT_REVIEW",!0)}" class="arrow arrow-right" @click="${()=>this.showNext(!0)}"><div class="rotate-right">${n}</div></button>
+              <button id="right" aria-label="${o("NEXT_REVIEW",!0)}" class="arrow arrow-right" @click="${()=>this.showNext(!0)}"><div class="rotate-right">${n}</div></button>
             </div>
           </div>
         </div>
@@ -691,8 +691,8 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
         }
       `]}static get properties(){return{data:{type:Array}}}constructor(){super(),this.data=b,this.addEventListener("opened-card",this._handleOpenedCard)}render(){return s`
       ${this.mixinsCSS}
-      <section tabindex="0" aria-label="${a("ECOSYSTEM",!0)}">
-        <h1 class="title section-header" aria-label="${a("ECOSYSTEM",!0)}" tabindex="0">
+      <section tabindex="0" aria-label="${o("ECOSYSTEM",!0)}">
+        <h1 class="title section-header" aria-label="${o("ECOSYSTEM",!0)}" tabindex="0">
           <lit-i18n>ECOSYSTEM</lit-i18n>
         </h1>
 
@@ -840,8 +840,8 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
         }
       `]}constructor(){super(),this.addEventListener("opened-card",this._handleOpenedCard)}render(){return s`
       ${this.mixinsCSS}
-      <section aria-label="${a("FREQUENT_QUESTIONS",!0)}" tabindex="0">
-        <h1 class="title section-header" aria-label="${a("FREQUENT_QUESTIONS",!0)}" tabindex="0">
+      <section aria-label="${o("FREQUENT_QUESTIONS",!0)}" tabindex="0">
+        <h1 class="title section-header" aria-label="${o("FREQUENT_QUESTIONS",!0)}" tabindex="0">
           <lit-i18n>FREQUENT_QUESTIONS</lit-i18n>
         </h1>
 
@@ -929,13 +929,13 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
 
         <div class="more-questions">
           <p class="doubts" tabindex="0"><lit-i18n>FREQUENT_QUESTION6</lit-i18n></p>
-          <a class="primary-button big question-link" href="mailto:bedigital@soprasteria.com">
+          <a class="primary-button big question-link" href="mailto:BeConnectedSpain@soprasteria.com">
             <lit-i18n>ASK_US</lit-i18n>
           </a>
         </div>
 
       </section>
-    `}_handleOpenedCard({detail:{element:t}}){this.shadowRoot.querySelectorAll("card-collapse").forEach(e=>{const i=e.querySelector(".header-content .icon"),s=e.querySelector(".header-content"),a=e.querySelector(".body-content");e===t?(i.classList.toggle("active"),s.classList.toggle("cliked"),a.classList.toggle("cliked"),e.hasAttribute("is-opened")?e.removeAttribute("is-opened"):e.setAttribute("is-opened","")):(i.classList.remove("active"),s.classList.remove("cliked"),a.classList.remove("cliked"),e.removeAttribute("is-opened"))})}get mixinsCSS(){return s`
+    `}_handleOpenedCard({detail:{element:t}}){this.shadowRoot.querySelectorAll("card-collapse").forEach(e=>{const i=e.querySelector(".header-content .icon"),s=e.querySelector(".header-content"),o=e.querySelector(".body-content");e===t?(i.classList.toggle("active"),s.classList.toggle("cliked"),o.classList.toggle("cliked"),e.hasAttribute("is-opened")?e.removeAttribute("is-opened"):e.setAttribute("is-opened","")):(i.classList.remove("active"),s.classList.remove("cliked"),o.classList.remove("cliked"),e.removeAttribute("is-opened"))})}get mixinsCSS(){return s`
       <style>
         card-collapse {
           --card-collapse-article: {
@@ -1274,7 +1274,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
           </div>
         </div>
       </div>
-    `}firstUpdated(){this._cssGenerator(),/^((?!chrome|android).)*safari/i.test(navigator.userAgent)&&this._resetAnimationOnResize()}_cssGenerator(){const t="var(--app-smartup-animation-",e=Math.round(100/(this.wordList?this.wordList.length:[]));let i="@keyframes move {0%  { top: 0px; } ",s="@media screen and (min-width: 600px) { "+i,a="@keyframes anim { ",o="",n=0;const r=(t,e)=>t+"% { stroke: "+e+"); fill: "+e+");} ",d=(t,i)=>t*e+"% {top: -"+i+"px; } ";this.wordList=this.wordList||[],this.wordList.forEach((l,c)=>{c>0&&(i=i.concat(d(c,4*c*10)),s=s.concat(d(c,50*c)),o=o.concat(r(c*e,t+this.colorList[n]))),c===this.wordList.length-1&&(a=this._svgKeyframeFinal(n,o,t,a,r)),n=this._resetColorIndex(0===c,n)}),this._setAnimationsAndKeyframes(a,".cls-1,.cls-2,.cls-3,.cls-4,.cls-5{fill:none;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{stroke-miterlimit:10;}.cls-1,.cls-2{stroke-width:27px;}.cls-2{stroke-linecap:round;}.cls-3{stroke-width:35px;}.cls-4{stroke-width:26px;}.cls-5{stroke-width:18px;} ",i,s,(t,e,i,s)=>{const a=s?" animation-delay: 1s; ":"";this.shadowRoot.querySelector(t).setAttribute("style","animation: "+e+" "+i+"s; animation-iteration-count: infinite; "+a)})}getColorClass(t){return this.colorCount===this.colorList.length-1||0===t?this.colorCount=0:this.colorCount++,t===this.wordList.length-1&&this._checkLastColor(this.colorCount)?this.colorList[2]:this.colorList[this.colorCount]}_checkLastColor(t){return this.colorList[t]===this.colorList[0]}_resetColorIndex(t,e){return t||e===this.colorList.length-1?0:e+1}_svgKeyframeFinal(t,e,i,s,a){t=this._resetColorIndex(!1,t);const o=i+(this._checkLastColor(t)?this.colorList[2]:this.colorList[t]);return s.concat(a(0,o)+e+" "+a(100,o)+"} ")}_setAnimationsAndKeyframes(t,e,i,s,a){a(".slide","move",this.wordList.length,!0),a(".icon","anim",this.wordList.length,!1),this.shadowRoot.querySelector("style").innerHTML=t+e+i+"} "+s+"}"}_resetAnimationOnResize(){this.isDesktop=window.innerWidth>600,window.addEventListener("resize",this._resetAnimations.bind(this))}_resetAnimations(){const t=this.shadowRoot.querySelector(".slide"),e=this.shadowRoot.querySelector(".icon");window.innerWidth>600!==this.isDesktop&&(t.setAttribute("style","animation: none"),e.setAttribute("style","animation: none;"),setTimeout(()=>{t.setAttribute("style","animation: move "+this.wordList.length+"s; animation-iteration-count: infinite; animation-delay: 1s;"),e.setAttribute("style","animation: anim "+this.wordList.length+"s; animation-iteration-count: infinite;")}),this.isDesktop=window.innerWidth>600)}});customElements.define("the-experience",class extends t{static get styles(){return[e,i`
+    `}firstUpdated(){this._cssGenerator(),/^((?!chrome|android).)*safari/i.test(navigator.userAgent)&&this._resetAnimationOnResize()}_cssGenerator(){const t="var(--app-smartup-animation-",e=Math.round(100/(this.wordList?this.wordList.length:[]));let i="@keyframes move {0%  { top: 0px; } ",s="@media screen and (min-width: 600px) { "+i,o="@keyframes anim { ",a="",n=0;const r=(t,e)=>t+"% { stroke: "+e+"); fill: "+e+");} ",d=(t,i)=>t*e+"% {top: -"+i+"px; } ";this.wordList=this.wordList||[],this.wordList.forEach((l,c)=>{c>0&&(i=i.concat(d(c,4*c*10)),s=s.concat(d(c,50*c)),a=a.concat(r(c*e,t+this.colorList[n]))),c===this.wordList.length-1&&(o=this._svgKeyframeFinal(n,a,t,o,r)),n=this._resetColorIndex(0===c,n)}),this._setAnimationsAndKeyframes(o,".cls-1,.cls-2,.cls-3,.cls-4,.cls-5{fill:none;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{stroke-miterlimit:10;}.cls-1,.cls-2{stroke-width:27px;}.cls-2{stroke-linecap:round;}.cls-3{stroke-width:35px;}.cls-4{stroke-width:26px;}.cls-5{stroke-width:18px;} ",i,s,(t,e,i,s)=>{const o=s?" animation-delay: 1s; ":"";this.shadowRoot.querySelector(t).setAttribute("style","animation: "+e+" "+i+"s; animation-iteration-count: infinite; "+o)})}getColorClass(t){return this.colorCount===this.colorList.length-1||0===t?this.colorCount=0:this.colorCount++,t===this.wordList.length-1&&this._checkLastColor(this.colorCount)?this.colorList[2]:this.colorList[this.colorCount]}_checkLastColor(t){return this.colorList[t]===this.colorList[0]}_resetColorIndex(t,e){return t||e===this.colorList.length-1?0:e+1}_svgKeyframeFinal(t,e,i,s,o){t=this._resetColorIndex(!1,t);const a=i+(this._checkLastColor(t)?this.colorList[2]:this.colorList[t]);return s.concat(o(0,a)+e+" "+o(100,a)+"} ")}_setAnimationsAndKeyframes(t,e,i,s,o){o(".slide","move",this.wordList.length,!0),o(".icon","anim",this.wordList.length,!1),this.shadowRoot.querySelector("style").innerHTML=t+e+i+"} "+s+"}"}_resetAnimationOnResize(){this.isDesktop=window.innerWidth>600,window.addEventListener("resize",this._resetAnimations.bind(this))}_resetAnimations(){const t=this.shadowRoot.querySelector(".slide"),e=this.shadowRoot.querySelector(".icon");window.innerWidth>600!==this.isDesktop&&(t.setAttribute("style","animation: none"),e.setAttribute("style","animation: none;"),setTimeout(()=>{t.setAttribute("style","animation: move "+this.wordList.length+"s; animation-iteration-count: infinite; animation-delay: 1s;"),e.setAttribute("style","animation: anim "+this.wordList.length+"s; animation-iteration-count: infinite;")}),this.isDesktop=window.innerWidth>600)}});customElements.define("the-experience",class extends t{static get styles(){return[e,i`
         :host {
           display: block;
           background-color: var(--app-background-color, white);
@@ -1341,8 +1341,8 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
             max-width: 748px; /* 628 + 120 */
           }
         }
-      `]}static get properties(){return{animated:{type:Boolean}}}constructor(){super(),this.animated=!1,this.wordList=a("ANIMATION_WORDS_LIST",!0)}render(){if(0==!this.wordList.length)return s`
-      <section aria-label="${a("THE_EXPERIENCE",!0)}" tabindex="0">
+      `]}static get properties(){return{animated:{type:Boolean}}}constructor(){super(),this.animated=!1,this.wordList=o("ANIMATION_WORDS_LIST",!0)}render(){if(0==!this.wordList.length)return s`
+      <section aria-label="${o("THE_EXPERIENCE",!0)}" tabindex="0">
         <h1 class="title section-header">
           <lit-i18n>THE_EXPERIENCE</lit-i18n>
         </h1>
@@ -1350,7 +1350,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
         <smartup-animation .wordList="${this.wordList}" ?animated="${this.animated}"></smartup-animation>
         <p class="bottom-text" tabindex="0"><lit-i18n>THE_EXPERIENCE_P2</lit-i18n></p>
       </section>
-      `}firstUpdated(){window.IntersectionObserver?(this.observer=new IntersectionObserver(this._handleIntersection.bind(this)),this.observer.observe(this)):this.animated=!0,document.addEventListener("LIT_I18N_UPDATED",()=>{this.wordList=a("ANIMATION_WORDS_LIST",!0),this.requestUpdate()})}disconnectedCallback(){this.observer&&this.observer.unobserve(this)}_handleIntersection([{isIntersecting:t}]){this.animated=t}});window.customElements.define("single-crack",class extends t{static get styles(){return[e,i`
+      `}firstUpdated(){window.IntersectionObserver?(this.observer=new IntersectionObserver(this._handleIntersection.bind(this)),this.observer.observe(this)):this.animated=!0,document.addEventListener("LIT_I18N_UPDATED",()=>{this.wordList=o("ANIMATION_WORDS_LIST",!0),this.requestUpdate()})}disconnectedCallback(){this.observer&&this.observer.unobserve(this)}_handleIntersection([{isIntersecting:t}]){this.animated=t}});window.customElements.define("single-crack",class extends t{static get styles(){return[e,i`
       :host {
         display: flex;
         flex-direction: column;
@@ -1557,24 +1557,24 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
           }
         } 
       `]}static get properties(){return{cracks:{type:Array},autoplay:{type:Boolean},index:{type:Number},speed:{type:Number},animationSpeed:{type:Number},minTouchLength:{type:Number},minTouchAngle:{type:Number},numItems:{type:Number},_buttonsDisabled:{type:Boolean}}}constructor(){super(),this.cracks=[],this.index=0,this.speed=5e3,this.animationSpeed=.7,this.minTouchLength=70,this.minTouchAngle=30,this.autoplay=!0,this._buttonsDisabled=!1,this.numItems=1,this.elementMinWidth=300,this.interval=null,this._focusEventsActive=[],this._isIntersecting=!0,this.EVENTS={mouseenter:"mouse",mouseleave:"mouse",focusin:"focus",focusout:"focus"}}render(){return s`
-      <section aria-label="${a("OUR_CRACKS_TITLE",!0)}" tabindex="0">
-        <h1 class="title section-header" aria-label="${a("OUR_CRACKS_TITLE",!0)}" tabindex="0">
+      <section aria-label="${o("OUR_CRACKS_TITLE",!0)}" tabindex="0">
+        <h1 class="title section-header" aria-label="${o("OUR_CRACKS_TITLE",!0)}" tabindex="0">
           <lit-i18n>OUR_CRACKS_TITLE</lit-i18n>
         </h1>
         <div id="cracks-slider-container" class="slider-container">
-          <button id="prev" aria-label="${a("PREV_BUTTON")}" class="arrow-button prev" ?disabled="${this._buttonsDisabled}" @click="${()=>this.clickPrev()}">${n}</button>
+          <button id="prev" aria-label="${o("PREV_BUTTON")}" class="arrow-button prev" ?disabled="${this._buttonsDisabled}" @click="${()=>this.clickPrev()}">${n}</button>
           <div class="slider-wrapper">
             <div class="slider" id="cracks-slider">
               ${this.cracks.map(t=>s`<single-crack id="${t.name.split(" ").join("")}" .crack="${t}"></single-crack>`)}
             </div>
           </div>
-          <button id="next" aria-label="${a("NEXT_BUTTON")}" class="arrow-button next" ?disabled="${this._buttonsDisabled}" @click="${()=>this.clickNext()}">${n}</button>
+          <button id="next" aria-label="${o("NEXT_BUTTON")}" class="arrow-button next" ?disabled="${this._buttonsDisabled}" @click="${()=>this.clickNext()}">${n}</button>
           <div aria-live="polite" class="sr-only" tabindex="-1">
-            ${a("OUR_CRACKS_TITLE")+": "+a(1===this.numItems?"SLIDE":"SLIDE_GROUP")+" "+(this.index+1)+" "+a("OF")+" "+Math.ceil(this.cracks.length/this.numItems)}
+            ${o("OUR_CRACKS_TITLE")+": "+o(1===this.numItems?"SLIDE":"SLIDE_GROUP")+" "+(this.index+1)+" "+o("OF")+" "+Math.ceil(this.cracks.length/this.numItems)}
           </div>
         </div>
       </section>
-    `}firstUpdated(){this._addEventListeners(),h(this.animationSpeed,this,"#cracks-slider"),this._updateItemsVisibility(),this._startAutoplay()}updated(){this._recalculateSliderWidth(),this._updateCarouselWidth(),u(null,this,"#cracks-slider")}connectedCallback(){super.connectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.3,callback:([{isIntersecting:t}])=>this._isIntersecting=t}})),window.addEventListener("resize",this._onWindowResize.bind(this))}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.3}})),window.removeEventListener("resize",this._onWindowResize.bind(this))}clickNext(){this._stopAutoplay(),this._next(),this._startAutoplay()}clickPrev(){this._stopAutoplay(),this._prev(),this._startAutoplay()}_startAutoplay(){this._stopAutoplay(),this.autoplay&&0==this._focusEventsActive.length&&this.cracks.length>this.numItems&&(this.interval=setInterval(()=>{this._isIntersecting&&this._next()},this.speed))}_stopAutoplay(){this.interval&&(clearInterval(this.interval),this.interval=void 0)}_recalculateSliderWidth(){this.sliderWidth=this.shadowRoot.querySelector(".slider-wrapper").offsetWidth;let t=Math.floor(this.sliderWidth/this.elementMinWidth);t<1&&(t=1),this.cracks.length<t&&(t=this.cracks.length),this.numItems!==t&&(this.numItems=t);const e=this.cracks.length<=this.numItems;this._buttonsDisabled!==e&&(this._buttonsDisabled=e)}_updateCarouselWidth(){this.shadowRoot.querySelector("#cracks-slider-container").style.width=this.sliderWidth+"px",this.shadowRoot.querySelector("#cracks-slider").style.width=this.cracks.length*this.sliderWidth/this.numItems+"px"}_next(){this.index++,this.index>=Math.ceil(this.cracks.length/this.numItems)&&(this.index=0),u(null,this,"#cracks-slider")}_prev(){this.index--,this.index<0&&(this.index=Math.ceil(this.cracks.length/this.numItems)-1),u(null,this,"#cracks-slider")}_updateItemsVisibility(){this.cracks.forEach((t,e)=>{const i=this.index*this.numItems,s=i+this.numItems,a=e>=i&&e<s,o=this.shadowRoot.querySelector(`#${t.name.split(" ").join("")}`);o.setAttribute("aria-hidden",!a),o.setAttribute("tabindex",a?0:-1)})}_addEventListeners(){p(this,"#cracks-slider");const t=this.shadowRoot.querySelector("#cracks-slider-container");t.addEventListener("mouseenter",this._onFocusIn.bind(this)),t.addEventListener("focusin",this._onFocusIn.bind(this)),t.addEventListener("mouseleave",this._onFocusOut.bind(this)),t.addEventListener("focusout",this._onFocusOut.bind(this))}_onWindowResize(){this._recalculateSliderWidth(),this.index=Math.floor(this.index/this.numItems),this._updateCarouselWidth(),u(null,this,"#cracks-slider")}_onFocusIn(t){this._focusEventsActive.push(this.EVENTS[t.type]),this._stopAutoplay()}_onFocusOut(t){this._focusEventsActive=this._focusEventsActive.filter(e=>e!==this.EVENTS[t.type]),this._startAutoplay()}});window.customElements.define("want-to-live-the-experience",class extends t{static get styles(){return[e,i`
+    `}firstUpdated(){this._addEventListeners(),h(this.animationSpeed,this,"#cracks-slider"),this._updateItemsVisibility(),this._startAutoplay()}updated(){this._recalculateSliderWidth(),this._updateCarouselWidth(),u(null,this,"#cracks-slider")}connectedCallback(){super.connectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("start-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.3,callback:([{isIntersecting:t}])=>this._isIntersecting=t}})),window.addEventListener("resize",this._onWindowResize.bind(this))}disconnectedCallback(){super.disconnectedCallback(),window.IntersectionObserver&&this.dispatchEvent(new CustomEvent("stop-observing-intersection",{bubbles:!0,composed:!0,detail:{element:this,threshold:.3}})),window.removeEventListener("resize",this._onWindowResize.bind(this))}clickNext(){this._stopAutoplay(),this._next(),this._startAutoplay()}clickPrev(){this._stopAutoplay(),this._prev(),this._startAutoplay()}_startAutoplay(){this._stopAutoplay(),this.autoplay&&0==this._focusEventsActive.length&&this.cracks.length>this.numItems&&(this.interval=setInterval(()=>{this._isIntersecting&&this._next()},this.speed))}_stopAutoplay(){this.interval&&(clearInterval(this.interval),this.interval=void 0)}_recalculateSliderWidth(){this.sliderWidth=this.shadowRoot.querySelector(".slider-wrapper").offsetWidth;let t=Math.floor(this.sliderWidth/this.elementMinWidth);t<1&&(t=1),this.cracks.length<t&&(t=this.cracks.length),this.numItems!==t&&(this.numItems=t);const e=this.cracks.length<=this.numItems;this._buttonsDisabled!==e&&(this._buttonsDisabled=e)}_updateCarouselWidth(){this.shadowRoot.querySelector("#cracks-slider-container").style.width=this.sliderWidth+"px",this.shadowRoot.querySelector("#cracks-slider").style.width=this.cracks.length*this.sliderWidth/this.numItems+"px"}_next(){this.index++,this.index>=Math.ceil(this.cracks.length/this.numItems)&&(this.index=0),u(null,this,"#cracks-slider")}_prev(){this.index--,this.index<0&&(this.index=Math.ceil(this.cracks.length/this.numItems)-1),u(null,this,"#cracks-slider")}_updateItemsVisibility(){this.cracks.forEach((t,e)=>{const i=this.index*this.numItems,s=i+this.numItems,o=e>=i&&e<s,a=this.shadowRoot.querySelector(`#${t.name.split(" ").join("")}`);a.setAttribute("aria-hidden",!o),a.setAttribute("tabindex",o?0:-1)})}_addEventListeners(){p(this,"#cracks-slider");const t=this.shadowRoot.querySelector("#cracks-slider-container");t.addEventListener("mouseenter",this._onFocusIn.bind(this)),t.addEventListener("focusin",this._onFocusIn.bind(this)),t.addEventListener("mouseleave",this._onFocusOut.bind(this)),t.addEventListener("focusout",this._onFocusOut.bind(this))}_onWindowResize(){this._recalculateSliderWidth(),this.index=Math.floor(this.index/this.numItems),this._updateCarouselWidth(),u(null,this,"#cracks-slider")}_onFocusIn(t){this._focusEventsActive.push(this.EVENTS[t.type]),this._stopAutoplay()}_onFocusOut(t){this._focusEventsActive=this._focusEventsActive.filter(e=>e!==this.EVENTS[t.type]),this._startAutoplay()}});window.customElements.define("want-to-live-the-experience",class extends t{static get styles(){return[e,i`
         :host {
           display: block;
         }
@@ -1622,8 +1622,8 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
           }
         } 
       `]}render(){return s`
-      <section aria-label="${a("LIVING_THE_EXPERIENCE",!0)}" tabindex="0">
-        <h1 class="title section-header" aria-label="${a("LIVING_THE_EXPERIENCE",!0)}" tabindex="0"> 
+      <section aria-label="${o("LIVING_THE_EXPERIENCE",!0)}" tabindex="0">
+        <h1 class="title section-header" aria-label="${o("LIVING_THE_EXPERIENCE",!0)}" tabindex="0"> 
           <lit-i18n>LIVING_THE_EXPERIENCE</lit-i18n>
         </h1>
         <div class="text-want-to-live">
@@ -1632,7 +1632,7 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
           </p>
         </div>
         <div class="navigation-buttons">
-          <a href="mailto:bedigital@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${a("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
+          <a href="mailto:BeConnectedSpain@soprasteria.com?subject=SmartUp+Xperience" class="primary-button big" aria-label="${o("WANT_TO_BE_SMARTER_BTN_A11Y",!0)}">
             <lit-i18n raw>WANT_TO_BE_SMARTER_BTN</lit-i18n>
           </a>
         </div>
@@ -1668,4 +1668,4 @@ import{L as t,S as e,c as i,h as s,g as a}from"./chunk-3dad17c8.js";import{p as 
       <want-to-live-the-experience></want-to-live-the-experience>
       <frequent-questions></frequent-questions>
     `}connectedCallback(){super.connectedCallback(),this.addEventListener("scroll-automatic",t=>this._scrollMe(t))}disconnectedCallback(){super.disconnectedCallback(),this.removeEventListener("scroll-automatic",t=>this._scrollMe(t))}_scrollMe(t){const e=parseInt(getComputedStyle(this).getPropertyValue("--header-height")),i=this.shadowRoot.querySelector(t.detail.elementScroll).offsetTop;r({headerHeight:e,elemenToScroll:i})}});
-//# sourceMappingURL=index-63e4460a.js.map
+//# sourceMappingURL=index-738e7997.js.map
